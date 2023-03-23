@@ -1,6 +1,6 @@
 # TERAPIA SEM FRONTEIRAS
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA`
 
