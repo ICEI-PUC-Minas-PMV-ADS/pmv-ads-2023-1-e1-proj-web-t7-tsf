@@ -2,22 +2,22 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Primeiro Semestre de 2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Douglas Henrique Matias Ferreira
+* Larissa Mara Vale Ferreira
+* Liana Cristina Vieira Santos Nagasawa 
+* Pedro Victor Ferreira De Assis 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone De Assis Alves Da Silva
 
 ## Instruções de utilização
 
