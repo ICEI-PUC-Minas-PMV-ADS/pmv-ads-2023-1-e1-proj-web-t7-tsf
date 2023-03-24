@@ -1,18 +1,27 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Diversas são as causas que podem estar associadas ao deslocamento de um indivíduo para outro país que não seja o de sua origem. Seja por motivos profissionais, estudantis, seja para buscar melhores condições de vida, por desastres naturais ou somente para viver essa experiência por um tempo.  
+
+Independente do motivo, alguns sentimentos são esperados para pessoas que não vivem em seu país de origem, sujeitando sua saúde mental a tamanha vulnerabilidade resultando em desenvolvimento de transtornos como ansiedade, síndrome do pânico, dificuldade de relacionamento, hostilidade e outros Transtornos Mentais Comuns (TMC). 
+
+Estar longe da família, não ter uma rede de apoio próxima, as incertezas, a socialização, a adaptação à uma nova cultura, aprender um novo idioma, preconceito, burocracia. Como lidar com a variedade de desafios propostos de forma efetiva e sã?  Haja vista tal situação, torna-se necessária a divulgação e o incentivo da terapia  para que os imigrantes busquem ajuda com um profissional da psicologia que seja de sua origem, para que aprendam a lidar com os obstáculos consigo mesmos e que possam, assim, focar em seus objetivos a fim de manter-se estruturados emocionalmente.  
+
+ 
+
+Com essa ferramenta, atende-se dois perfis:  
+
+O imigrante, que busca terapia com um profissional de seu país de origem, para que tenha as ferramentas necessárias incluindo compreensão e bom direcionamento para sentir-se acolhido e são ao resolver os desafios diariamente; 
+
+O psicólogo, que oferece esse serviço e tem condições de atender as expectativas profissionais que o psicólogo dos países residentes não conseguem, muitas vezes, por motivos de diferenças culturais, sociais, políticas entre outras.   
+
+  
+
+Existem muitos profissionais da psicologia que atuam nessa área  oferecendo terapia para imigrantes.  Atualmente, os profissionais da psicologia sentem falta de um canal onde possam ofertar as terapias para esse público específico através de um portal de fácil utilização e com riqueza de informação. Em que possam compartilhar conteúdo, divulgar o trabalho e criar um canal personalizado. Ao mesmo tempo, as pessoas que buscam esse serviço terão uma gama de ofertas de profissionais dentro de suas raízes culturais com sigilo. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Esse projeto visa proporcionar soluções para facilitar o encontro entre pacientes imigrantes e terapeutas brasileiros no ambiente online. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+ 
 
 ## Objetivos
 
