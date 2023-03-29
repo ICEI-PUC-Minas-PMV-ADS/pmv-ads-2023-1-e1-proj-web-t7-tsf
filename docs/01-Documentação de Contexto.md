@@ -34,12 +34,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Tendo em vista que muitas pessoas saem de seus países de origem a procura de melhores condições de vida como saúde, estudos, dinheiro, qualidade de vida, condições climáticas como tantas outras. Entretanto, percebe-se um choque de realidade ao imaginar tais motivações e na realidade encontrar inúmeros desafios de inúmeras ordens como por exemplo, a submissão de trabalhos que requerem licenciamentos diferentes daqueles requeridos no país de origem. Veja [aqui]([url](https://www.rfi.fr/br/fran%C3%A7a/20201120-em-tempos-de-covid-eles-deviam-autorizar-diz-enfermeira-brasileira-impedida-de-trabalhar-na-fran%C3%A7a)) o exemplo de uma enfermeira brasileira que teve de recomeçar o curso de Enfermagem na França devido a discrepância de regras entre os países. E também, [aqui]([url](https://www.youtube.com/watch?v=vsVZTLgTx58)) um exemplo de entregadores que sofrem ataques físicos na Irlanda por serem imigrantes. Sendo assim, percebe-se o tocante de saúde mental como primordial em tais situações devido ao impacto social e econômico entendendo como tais aspectos culturais, sociais podem refletir na produtividade e na contribuição do bem comum.    
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A Organização Mundial de Saúde (OMS, 1975) define saúde mental como "o estado de bem-estar, no qual o indivíduo percebe as próprias habilidades, pode lidar com os estresses normais da vida, é capaz de trabalhar produtivamente e está apto a contribuir com sua comunidade".   
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A população imigrante apresenta maior vulnerabilidade em questões de saúde, especialmente transtornos psicológicos com maior nível de ansiedade ou maior pessimismo em relação ao futuro, muitas vezes produzidos/agravados pela perda da rede social de apoio, pelo distanciamento devido ao não conhecimento da língua e pelas mudanças no seu estatuto social (Berra, Elorza Rocard, Bartomeu, Hausmann, Serra- Sutton, & Rajmil, 2004). 
+
+Geralmente, esses atendimentos são online, permitidos por lei desde 2012. 
 
 ## Público-Alvo
 
