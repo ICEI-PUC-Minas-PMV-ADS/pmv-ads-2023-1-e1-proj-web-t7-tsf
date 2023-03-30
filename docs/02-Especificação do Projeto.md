@@ -8,6 +8,32 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+Jéssica Matias	Idade: 32
+Ocupação: Psicóloga clínica, trabalha com orientação psicanalítica de adolescentes e adultos.	
+Motivações
+●	Ajudar as pessoas a viverem vidas mais felizes e satisfatórias.
+●	Crescer na carreira e ser reconhecida profissionalmente.	
+Frustrações
+●	Fica frustrada quando seus pacientes não levam a terapia a sério.
+●	Dificuldade na captação de clientes.	
+Hobbies
+●	Caminhar
+●	Ir ao cinema
+●	Livros de romance
+
+Lucas Gonçalves
+Idade: 28
+Ocupação: Engenheiro de software, trabalha com desenvolvimento de jogos em uma multinacional canadense, país onde reside atualmente. 
+Motivações
+●	Paixão pela tecnologia e sua constante evolução.
+● Fascinado com a possibilidade de desenvolver softwares que podem impactar a vida das pessoas de forma positiva.	
+Frustrações
+●	Dificuldades em lidar com a pressão por prazos curtos, que muitas vezes são incompatíveis com a complexidade do trabalho.	
+Hobbies
+●	Jogos eletrônicos
+●	Tocar guitarra
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -26,10 +52,16 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                                                                  |
+|--------------------|------------------------------------|---------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las              |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas|
+|Jéssica Matias	     |Captar e ajudar novos clientes.	    |é gratificante ver seus pacientes melhorando e superando seus problemas.|
+Jéssica Matias	      |Democratizar o acesso à terapia.	   |acredito que a saúde mental deve ser uma prioridade em nossa sociedade e que as pessoas deveriam ter acesso a cuidados de qualidade.|
+Jéssica Matias	      |Desenvolver um método de trabalho que motive e seja cativante. |é difícil ver alguém que precisa de ajuda, mas tem dificuldade em trabalhar para melhorar sua situação.|          
+Lucas Gonçalves	     |Dedicar um tempo para mim e minha saúde mental. |apesar de amar o que faço a pressão e a rotina do trabalho são muito desgastantes.|
+Lucas Gonçalves	     |Trabalhar questões emocionais relacionadas ao fato de estar longe da família e amigos.|	não é fácil encarar uma mudança de país estando longe das pessoas que ama.
+Lucas Gonçalves	     |Adquirir uma nova motivação para continuar os estudos.|	com a correria do dia a dia acabo procrastinando e adiando os planos que tinha para minha carreira.|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
