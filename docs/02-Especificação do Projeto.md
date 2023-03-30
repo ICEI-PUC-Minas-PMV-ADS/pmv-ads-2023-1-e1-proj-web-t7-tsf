@@ -36,21 +36,14 @@ Hobbies
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+1- Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas, dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família, mas adora andar a toa para conhecer cidades, passear pelos parques.  Está em busca de conhecer novas pessoas, culturas e novos lugares.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+2- Jullio Ravazoli tem 36 anos é executivo de vendas em uma empresa de serviços terceirizados. Tem como hobbie viajar e fotografar, busca conhecer novas culturas e outros idiomas visando crescimento pessoal.  Sente dificuldade na adaptação às novas culturas, distanciamento familiar e em se adaptar à climas diferentes do habitual.
 
-## Histórias de Usuários
+3- Elisa Budreckas Vieira tem 34 anos, é sceretária da diretoria de uma empresa do ramo de fornecimento de energia elétrica. Ama cozinhar e ler livros, tem facilidade com decoração de interiores e como sua maior companhia, o marido. Busca conhecer o mundo para aprender sobre diversas culturas culinárias.  Sempre tem dificuldade em lidar com a saudade da família e em muitas de suas viagens alega recber discriminação cultural.  
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+4- Maria Cristina Bizotti tem 28 anos, é psicóloga e atua na abordagem da TCC - Terapia Cognitivo Comportamental.  Já realizou muito trabalhos voluntários, gosta muito de ler e aprecia a arte voltada para pinturas.  Busca promover qualidade de vida, bem-estar psicológico e emocional para as pessoas, sua maior alegria é ver os resultados que a terapia proporciona na vida dos pacientes.  Sua frustração é saber que muitas pessoas acham que terapia é para pessoas "loucas" e que depressão e ansiedade é frescura. 
+
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                                                                  |
 |--------------------|------------------------------------|---------------------------------------|
@@ -62,16 +55,19 @@ Jéssica Matias	      |Desenvolver um método de trabalho que motive e seja cati
 Lucas Gonçalves	     |Dedicar um tempo para mim e minha saúde mental. |apesar de amar o que faço a pressão e a rotina do trabalho são muito desgastantes.|
 Lucas Gonçalves	     |Trabalhar questões emocionais relacionadas ao fato de estar longe da família e amigos.|	não é fácil encarar uma mudança de país estando longe das pessoas que ama.
 Lucas Gonçalves	     |Adquirir uma nova motivação para continuar os estudos.|	com a correria do dia a dia acabo procrastinando e adiando os planos que tinha para minha carreira.|
+=======
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+## Histórias de Usuários
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                       |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|--------------------------------------------------------------------------|----------------------------------------|
+|Fabiana             | encontrar ajuda para lidar com distanciamento familiar                   | Para poder aproveitar melhor as viagens|
+|Jullio              | conhecer relatos de pessoas que enfretaram as mesmas dificuldades        | para que eu consiga lidar melhor com  minhas frustrações |       
+|Elisa               | ajuda profissional                                                       | para lidar com a discriminação cultural|
+|Maria               | Divulgar meus serviços                                                   | para que mais pessoas encontrem resultados através de terapias |
+                                                          
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -79,45 +75,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|------|------------------------------------------------------|------|
+|RF-001| O site deve apresentar na página inicial cards com os psicólogos disponíveis, área de login, cards com relatos de imigrantes | ALTA | 
+|RF-002| Para a página de psicólogos, deve haver um formulário requerendo informações previamente discutidas como email, CRP, telefone, abordagem   | ALTA |    
+|RF-003| O site deve apresentar na tela de cadastro para opção paciente, a o formulário para cadastrar formas de contato      | ALTA |
+|RF-004| Todos os botões devem ser clicáveis                  | MÉDIA |
+|RF-005| Na página principal, devemos deixar claro o propósito do site já que envolve assuntos sensíveispropósito do site já que envolve assuntos sensíveis | MÉDIA |
+|RF-006| O site deve apresentar na página de relatos, cards com identificação anônima ou não, opção de relatar    | MÉDIA |
+|RF-007| O site deve apresentar na página de relatos, cards com identificação anônima ou não, e com relatos de pessoas que relataram   | MÉDIA |         
+|RF-008| O site deve funcionar em mobile e desktop            | BAIXA |
+         
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|-------|-------------------------------------------------------------------|-------|
+|RNF-001| O site deve apresentar na tela de cadastro de psicólogo, a escolha do plano que ele quer assinar          | MÉDIA | 
+|RNF-002| Interface de usuário                                              | MÉDIA | 
+|RNF-003| O sistema deve ser fácil de usar e entender                       | MÉDIA | 
+|RNF-004| O sistema deve rodar em diferentes plataformas com alterações mínimas    | MÉDIA | 
+|RNF-005| Chat Online para suporte                                          | BAIXA | 
+           
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                     |
+|--|-------------------------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre                         |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web Frontend        |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho                  |
+|04| O grupo deverá utilizar o repositório específico do curso ADS                 |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
