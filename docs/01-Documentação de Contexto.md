@@ -46,6 +46,7 @@ A população imigrante apresenta maior vulnerabilidade em questões de saúde, 
 
 Geralmente, esses atendimentos são online, permitidos por lei desde 2012. 
 
+=======
 ## Público-Alvo
 
 O público-alvo homens, mulheres, crianças, casais, quaisquer pessoais no âmbito da imigração que buscam cuidados com a saúde mental e estão fora do Brasil independente do motivo  e necessitam do apoio psicológico para lidar com as adversidades apresentadas na mudança de país.  Muitos brasileiros no exterior têm dificuldade de se adaptar com a nova cultura, ao novo ambiente e consequentemente perceber a importância de suas crenças e valores num novo ambiente.. Alguns por acreditarem que o ambiente pode “resolver” suas emoções, outros por acreditarem que ocupar a mente com trabalhos e responsabilidades será o suficiente para acabar com qualquer frustração. 
