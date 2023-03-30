@@ -47,15 +47,13 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                                                                  |
 |--------------------|------------------------------------|---------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las              |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas|
 |Jéssica Matias	     |Captar e ajudar novos clientes.	    |é gratificante ver seus pacientes melhorando e superando seus problemas.|
 Jéssica Matias	      |Democratizar o acesso à terapia.	   |acredito que a saúde mental deve ser uma prioridade em nossa sociedade e que as pessoas deveriam ter acesso a cuidados de qualidade.|
 Jéssica Matias	      |Desenvolver um método de trabalho que motive e seja cativante. |é difícil ver alguém que precisa de ajuda, mas tem dificuldade em trabalhar para melhorar sua situação.|          
 Lucas Gonçalves	     |Dedicar um tempo para mim e minha saúde mental. |apesar de amar o que faço a pressão e a rotina do trabalho são muito desgastantes.|
 Lucas Gonçalves	     |Trabalhar questões emocionais relacionadas ao fato de estar longe da família e amigos.|	não é fácil encarar uma mudança de país estando longe das pessoas que ama.
 Lucas Gonçalves	     |Adquirir uma nova motivação para continuar os estudos.|	com a correria do dia a dia acabo procrastinando e adiando os planos que tinha para minha carreira.|
-=======
+
 
 ## Histórias de Usuários
 
