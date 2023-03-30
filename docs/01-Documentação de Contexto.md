@@ -25,12 +25,16 @@ Esse projeto visa proporcionar soluções para facilitar o encontro entre pacien
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal desse projeto é o desenvolvimento de uma plataforma que viabilize o encontro online de terapeuta brasileiro e paciente imigrante. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos específicos: 
+
+1. Reverter o valor pago pelos psicólogos pelo uso da plataforma em doações para ONGs 
+
+2. Oferecer aos profissionais de psicologia um meio de captar novos clientes 
+
+3. Informativo sobre a problemática e sobre os países (de acordo com vivências reais compartilhadas) 
+
 
 ## Justificativa
 
@@ -44,13 +48,6 @@ Geralmente, esses atendimentos são online, permitidos por lei desde 2012.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo homens, mulheres, crianças, casais, quaisquer pessoais no âmbito da imigração que buscam cuidados com a saúde mental e estão fora do Brasil independente do motivo  e necessitam do apoio psicológico para lidar com as adversidades apresentadas na mudança de país.  Muitos brasileiros no exterior têm dificuldade de se adaptar com a nova cultura, ao novo ambiente e consequentemente perceber a importância de suas crenças e valores num novo ambiente.. Alguns por acreditarem que o ambiente pode “resolver” suas emoções, outros por acreditarem que ocupar a mente com trabalhos e responsabilidades será o suficiente para acabar com qualquer frustração. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Dessa forma, o público também se torna os profissionais de psicologia que estudam a mente e o comportamento humano que não necessariamente residem no Brasil, mas que possam ajudar e atender o público brasileiro estrangeiro pelo fato do nosso jeito de pensar e agir está relacionado à nossa cultura e, por isso, realizar psicoterapia com um profissional que nos compreenda nessa totalidade é fundamental. 
