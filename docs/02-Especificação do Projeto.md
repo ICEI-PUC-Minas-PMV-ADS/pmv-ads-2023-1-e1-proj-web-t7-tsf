@@ -33,9 +33,6 @@ Hobbies
 ●	Jogos eletrônicos
 ●	Tocar guitarra
 
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
 1- Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas, dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família, mas adora andar a toa para conhecer cidades, passear pelos parques.  Está em busca de conhecer novas pessoas, culturas e novos lugares.
 
 2- Jullio Ravazoli tem 36 anos é executivo de vendas em uma empresa de serviços terceirizados. Tem como hobbie viajar e fotografar, busca conhecer novas culturas e outros idiomas visando crescimento pessoal.  Sente dificuldade na adaptação às novas culturas, distanciamento familiar e em se adaptar à climas diferentes do habitual.
