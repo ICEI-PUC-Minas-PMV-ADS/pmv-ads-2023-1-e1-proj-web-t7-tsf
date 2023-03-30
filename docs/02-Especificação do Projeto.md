@@ -8,7 +8,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Jéssica Matias	Idade: 32
+1- Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas, dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família, mas adora andar a toa para conhecer cidades, passear pelos parques.  Está em busca de conhecer novas pessoas, culturas e novos lugares.
+
+2- Jullio Ravazoli tem 36 anos é executivo de vendas em uma empresa de serviços terceirizados. Tem como hobbie viajar e fotografar, busca conhecer novas culturas e outros idiomas visando crescimento pessoal.  Sente dificuldade na adaptação às novas culturas, distanciamento familiar e em se adaptar à climas diferentes do habitual.
+
+3- Elisa Budreckas Vieira tem 34 anos, é sceretária da diretoria de uma empresa do ramo de fornecimento de energia elétrica. Ama cozinhar e ler livros, tem facilidade com decoração de interiores e como sua maior companhia, o marido. Busca conhecer o mundo para aprender sobre diversas culturas culinárias.  Sempre tem dificuldade em lidar com a saudade da família e em muitas de suas viagens alega recber discriminação cultural.  
+
+4- Maria Cristina Bizotti tem 28 anos, é psicóloga e atua na abordagem da TCC - Terapia Cognitivo Comportamental.  Já realizou muito trabalhos voluntários, gosta muito de ler e aprecia a arte voltada para pinturas.  Busca promover qualidade de vida, bem-estar psicológico e emocional para as pessoas, sua maior alegria é ver os resultados que a terapia proporciona na vida dos pacientes.  Sua frustração é saber que muitas pessoas acham que terapia é para pessoas "loucas" e que depressão e ansiedade é frescura. 
+
+5- Jéssica Matias	Idade: 32
 Ocupação: Psicóloga clínica, trabalha com orientação psicanalítica de adolescentes e adultos.	
 Motivações
 ●	Ajudar as pessoas a viverem vidas mais felizes e satisfatórias.
@@ -21,7 +29,7 @@ Hobbies
 ●	Ir ao cinema
 ●	Livros de romance
 
-Lucas Gonçalves
+6- Lucas Gonçalves
 Idade: 28
 Ocupação: Engenheiro de software, trabalha com desenvolvimento de jogos em uma multinacional canadense, país onde reside atualmente. 
 Motivações
@@ -32,14 +40,6 @@ Frustrações
 Hobbies
 ●	Jogos eletrônicos
 ●	Tocar guitarra
-
-1- Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas, dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família, mas adora andar a toa para conhecer cidades, passear pelos parques.  Está em busca de conhecer novas pessoas, culturas e novos lugares.
-
-2- Jullio Ravazoli tem 36 anos é executivo de vendas em uma empresa de serviços terceirizados. Tem como hobbie viajar e fotografar, busca conhecer novas culturas e outros idiomas visando crescimento pessoal.  Sente dificuldade na adaptação às novas culturas, distanciamento familiar e em se adaptar à climas diferentes do habitual.
-
-3- Elisa Budreckas Vieira tem 34 anos, é sceretária da diretoria de uma empresa do ramo de fornecimento de energia elétrica. Ama cozinhar e ler livros, tem facilidade com decoração de interiores e como sua maior companhia, o marido. Busca conhecer o mundo para aprender sobre diversas culturas culinárias.  Sempre tem dificuldade em lidar com a saudade da família e em muitas de suas viagens alega recber discriminação cultural.  
-
-4- Maria Cristina Bizotti tem 28 anos, é psicóloga e atua na abordagem da TCC - Terapia Cognitivo Comportamental.  Já realizou muito trabalhos voluntários, gosta muito de ler e aprecia a arte voltada para pinturas.  Busca promover qualidade de vida, bem-estar psicológico e emocional para as pessoas, sua maior alegria é ver os resultados que a terapia proporciona na vida dos pacientes.  Sua frustração é saber que muitas pessoas acham que terapia é para pessoas "loucas" e que depressão e ansiedade é frescura. 
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                                                                  |
