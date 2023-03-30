@@ -25,24 +25,30 @@ Esse projeto visa proporcionar soluções para facilitar o encontro entre pacien
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal desse projeto é o desenvolvimento de uma plataforma que viabilize o encontro online de terapeuta brasileiro e paciente imigrante. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos específicos: 
+
+1. Reverter o valor pago pelos psicólogos pelo uso da plataforma em doações para ONGs 
+
+2. Oferecer aos profissionais de psicologia um meio de captar novos clientes 
+
+3. Informativo sobre a problemática e sobre os países (de acordo com vivências reais compartilhadas) 
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Tendo em vista que muitas pessoas saem de seus países de origem a procura de melhores condições de vida como saúde, estudos, dinheiro, qualidade de vida, condições climáticas como tantas outras. Entretanto, percebe-se um choque de realidade ao imaginar tais motivações e na realidade encontrar inúmeros desafios de inúmeras ordens como por exemplo, a submissão de trabalhos que requerem licenciamentos diferentes daqueles requeridos no país de origem. Veja [aqui]([url](https://www.rfi.fr/br/fran%C3%A7a/20201120-em-tempos-de-covid-eles-deviam-autorizar-diz-enfermeira-brasileira-impedida-de-trabalhar-na-fran%C3%A7a)) o exemplo de uma enfermeira brasileira que teve de recomeçar o curso de Enfermagem na França devido a discrepância de regras entre os países. E também, [aqui]([url](https://www.youtube.com/watch?v=vsVZTLgTx58)) um exemplo de entregadores que sofrem ataques físicos na Irlanda por serem imigrantes. Sendo assim, percebe-se o tocante de saúde mental como primordial em tais situações devido ao impacto social e econômico entendendo como tais aspectos culturais, sociais podem refletir na produtividade e na contribuição do bem comum.    
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A Organização Mundial de Saúde (OMS, 1975) define saúde mental como "o estado de bem-estar, no qual o indivíduo percebe as próprias habilidades, pode lidar com os estresses normais da vida, é capaz de trabalhar produtivamente e está apto a contribuir com sua comunidade".   
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A população imigrante apresenta maior vulnerabilidade em questões de saúde, especialmente transtornos psicológicos com maior nível de ansiedade ou maior pessimismo em relação ao futuro, muitas vezes produzidos/agravados pela perda da rede social de apoio, pelo distanciamento devido ao não conhecimento da língua e pelas mudanças no seu estatuto social (Berra, Elorza Rocard, Bartomeu, Hausmann, Serra- Sutton, & Rajmil, 2004). 
 
+Geralmente, esses atendimentos são online, permitidos por lei desde 2012. 
+
+=======
 ## Público-Alvo
 
-O público-alvo são homens e mulheres brasileiros estrangeiros, casais na faixa etária de 20 a 50 anos, crianças e adolescentes que buscam cuidados com a saúde mental e estão fora do Brasil independente do motivo e necessitam do apoio psicológico para lidar com as adversidades apresentadas na mudança de país.  Muitos brasileiros no exterior têm dificuldade de se adaptar com a nova cultura, ao novo ambiente e consequentemente perceber a importância de suas crenças e valores num novo ambiente. Alguns por acreditarem que o ambiente pode “resolver” suas emoções, outros por acreditarem que ocupar a mente com trabalhos e responsabilidades será o suficiente para acabar com qualquer frustração. 
+O público-alvo homens, mulheres, crianças, casais, quaisquer pessoais no âmbito da imigração que buscam cuidados com a saúde mental e estão fora do Brasil independente do motivo  e necessitam do apoio psicológico para lidar com as adversidades apresentadas na mudança de país.  Muitos brasileiros no exterior têm dificuldade de se adaptar com a nova cultura, ao novo ambiente e consequentemente perceber a importância de suas crenças e valores num novo ambiente.. Alguns por acreditarem que o ambiente pode “resolver” suas emoções, outros por acreditarem que ocupar a mente com trabalhos e responsabilidades será o suficiente para acabar com qualquer frustração. 
 
 Dessa forma, o público também se torna os profissionais de psicologia que estudam a mente e o comportamento humano que não necessariamente residem no Brasil, mas que possam ajudar e atender o público brasileiro estrangeiro pelo fato do nosso jeito de pensar e agir está relacionado à nossa cultura e, por isso, realizar psicoterapia com um profissional que nos compreenda nessa totalidade é fundamental. 
