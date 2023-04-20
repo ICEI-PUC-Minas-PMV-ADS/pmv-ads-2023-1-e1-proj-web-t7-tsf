@@ -1,35 +1,84 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+ Nesse projeto estabelece o foco em questões como agilidade, acessibilidade e usabilidade. 
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+## Fluxo do Usuário
+ 
+ O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar por completo, acesse [Marvel](https://marvelapp.com/project/6697348).
+ 
+![Diagrama Figura 2](img/DiagramaFigura2.jpg)
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
-## User Flow
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Diagrama - Figura 2
 
 
 ## Wireframes
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+●	Cabeçalho - local onde são dispostos elementos fixos de identidade, como o nome do projeto: Terapia Sem Fronteiras;
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+●	Rodapé - apresenta o conteúdo com slogan e logo;
+
+●	Barra lateral - apresenta os elementos de navegação secundária, geralmente associados aos elementos do bloco de conteúdo. O bloco da Barra Lateral traz todos os elementos citados acima, em formato Menu.
+
+
+![Estrutura do Site Figura 3](img/EstruturadoSiteFigura3.jpg)
+Estrutura do Site - Figura 3
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+## Telas
+
+**HomePage**
+
+A tela de home-page mostra destaques dos conteudos oferecidos pelo site. 
+Com base na estrutura padrão, o bloco de Conteúdo traz as cards em destaque (Perfis de psicólogos, relatos de imigrantes, dicas, perguntas frequentes, área de login).
+
+![Home Page Figura 4](img/HomePageFigura4.jpg)
+Home Page - Figura 4
+
+**Tela Login**
+
+A tela Login dá opção de login ou criar um login (cadastro).
+
+![Login Figura 5](img/LoginFigura5.jpg)
+Login - Figura 5
+
+
+**Tela Cadastro**
+
+A tela de Cadastro apresenta opção para dois perfis:
+
+●	**Imigrantes**, realizando o cadastro mais simples, com pouca exigeência de informações.
+
+●	**Psicólogos**, realizando o cadastro mais completo, com mais riqueza de informações. 
+
+![Cadastro Imigrantes Figura 6](img/CadastroImigrantesFigura6.jpg)
+Cadastro Imigrantes - Figura 6
+![Cadastro Psicologo Figura 7](img/CadastroPsicologoFigura7.jpg)
+Cadastro Psicólogo - Figura 7
+
+**Tela Psicologos**
+
+A tela Psicólogos apresenta a visualização clicável de todos os perfis cadastrados para que os imigrantes possam conhecê-los e escolher:
+
+![Psicologo Figura 8](img/PsicologoFigura8.jpg)
+Psicologo - Figura 8
+
+
+**Tela Perfil Psicólogo**
+A tela Perfil Psicólogo apresenta a visualização mais detalhada de um perfil escolhido, com opção de entrar em contato via WhatsApp ou mostrar o número de telefone.
+![Perfil Psicologo Figura 9](img/PerfilPsicologoFigura9.jpg)
+Perfil Psicologo - Figura 9
+
+**Tela Relatos**
+
+A tela Relatos apresenta campos com relatos de imigrantes que quiseram deixar uma mensagem ou uma dica para quem está buscando ajuda.
+
+![Relatos Figura 10](img/RelatosFigura10.jpg)
+Relatos - Figura 10
+
+**Tela Perguntas Frequentes**
+
+A tela Perguntas Frequentes apresenta uma série de perguntas e respostas para ajudar os usuários na usabilidade do site.
+
+![Perguntas Frequentes Figura 11](img/PerguntasFrequentesFigura11.jpg)
+Perguntas Frequentes - Figura 11

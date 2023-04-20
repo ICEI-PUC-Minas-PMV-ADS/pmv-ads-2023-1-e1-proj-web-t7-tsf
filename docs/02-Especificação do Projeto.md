@@ -36,6 +36,9 @@ Jéssica Matias	     |Divulgar um método de trabalho que cause motivação     
 Lucas Gonçalves	     |Encontrar profissional que ajude na dedicação da saúde mental            |Aprender a lidar com o desgaste gerado pela pressão de prazos|
 Lucas Gonçalves	     |Encontrar ajuda profissional para distanciamento familiar                |Trabalhar questões emocionais relacionadas ao fato de estar longe da família e amigos
 Lucas Gonçalves	     |Adquirir ajduda profissional para motivação e fim da proscrastinação     |Manter o foco nos estudos e nos objetivos|
+Andreia Vale	       |Padronização e direcionamento focados em pacientes imigrantes	           |Proporcionar qualidade de vida aos imigrantes
+Matheus Braga	       |Gerenciar horários para atendimento de pacientes que estão fora do Brasil |Obter constância nos atendimentos direcionados a imigrantes
+
 
                                                            
 ## Requisitos
