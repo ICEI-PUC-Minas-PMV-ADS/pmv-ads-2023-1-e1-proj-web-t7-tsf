@@ -17,10 +17,14 @@ Organizando-se da seguinte forma:
 
 |Funções|Colaborador|
 |---------|------------|
-| Scrum Master:|   |
-| Product Owner:||
-| Equipe de Desenvolvimento:||
-| Equipe de Designer:||
+| Scrum Master:|Pedro Ferreira|
+| Product Owner:|Larissa Ferreira|
+| Equipe de Desenvolvimento:|Douglas Ferreira|
+| |Larissa Ferreira|
+| |Liana Nagasawa|
+| |Pedro Ferreira|
+| Equipe de Designer:|Douglas Ferreira|
+||Liana Nagasawa|
 
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello.
