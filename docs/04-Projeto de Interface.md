@@ -53,13 +53,15 @@ A tela de Cadastro apresenta opção para dois perfis:
 
 ![Cadastro Imigrantes Figura 6](img/CadastroImigrantesFigura6.jpg)
 Cadastro Imigrantes - Figura 6
-![Cadastro Psicologos Figura 7](img/CadastroPsicologosFigura7.jpg)
-Cadastro Psicólogos - Figura 7
+![Cadastro Psicologo Figura 7](img/CadastroPsicologoFigura7.jpg)
+Cadastro Psicólogo - Figura 7
 
 **Tela Psicologos**
+
 A tela Psicólogos apresenta a visualização clicável de todos os perfis cadastrados para que os imigrantes possam conhecê-los e escolher:
-![Psicologos Figura 7](img/PsicologosFigura7.jpg)
-Psicologos - Figura 7
+
+![Psicologos Figura 8](img/PsicologosFigura8.jpg)
+Psicologos - Figura 8
 
 
 **Tela Perfil Psicólogo**
