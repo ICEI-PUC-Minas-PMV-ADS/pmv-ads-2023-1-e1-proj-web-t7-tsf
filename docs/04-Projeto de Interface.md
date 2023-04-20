@@ -65,16 +65,20 @@ Psicologos - Figura 8
 
 
 **Tela Perfil Psicólogo**
-A tela Perfil Psicólogo apresenta a visualização mais detalhada de um perfil escolhido.
+A tela Perfil Psicólogo apresenta a visualização mais detalhada de um perfil escolhido, com opção de entrar em contato via WhatsApp ou mostrar o número de telefone.
 ![Perfil Psicologo Figura 8](img/PerfilPsicologoFigura8.jpg)
 Perfil Psicologo - Figura 8
 
 **Tela Relatos**
+
 A tela Relatos apresenta campos com relatos de imigrantes que quiseram deixar uma mensagem ou uma dica para quem está buscando ajuda.
+
 ![Relatos Figura 9](img/RelatosFigura9.jpg)
 Relatos - Figura 9
 
 **Tela Perguntas Frequentes**
+
 A tela Perguntas Frequentes apresenta uma série de perguntas e respostas para ajudar os usuários na usabilidade do site.
+
 ![Perguntas Frequentes Figura 10](img/PerguntasFrequentesFigura10.jpg)
 Perguntas Frequentes - Figura 10
