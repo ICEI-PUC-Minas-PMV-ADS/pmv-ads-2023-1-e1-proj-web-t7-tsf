@@ -60,25 +60,25 @@ Cadastro Psicólogo - Figura 7
 
 A tela Psicólogos apresenta a visualização clicável de todos os perfis cadastrados para que os imigrantes possam conhecê-los e escolher:
 
-![Psicologos Figura 8](img/PsicologosFigura8.jpg)
-Psicologos - Figura 8
+![Psicologo Figura 8](img/PsicologoFigura8.jpg)
+Psicologo - Figura 8
 
 
 **Tela Perfil Psicólogo**
 A tela Perfil Psicólogo apresenta a visualização mais detalhada de um perfil escolhido, com opção de entrar em contato via WhatsApp ou mostrar o número de telefone.
-![Perfil Psicologo Figura 8](img/PerfilPsicologoFigura8.jpg)
-Perfil Psicologo - Figura 8
+![Perfil Psicologo Figura 9](img/PerfilPsicologoFigura9.jpg)
+Perfil Psicologo - Figura 9
 
 **Tela Relatos**
 
 A tela Relatos apresenta campos com relatos de imigrantes que quiseram deixar uma mensagem ou uma dica para quem está buscando ajuda.
 
-![Relatos Figura 9](img/RelatosFigura9.jpg)
-Relatos - Figura 9
+![Relatos Figura 10](img/RelatosFigura10.jpg)
+Relatos - Figura 10
 
 **Tela Perguntas Frequentes**
 
 A tela Perguntas Frequentes apresenta uma série de perguntas e respostas para ajudar os usuários na usabilidade do site.
 
-![Perguntas Frequentes Figura 10](img/PerguntasFrequentesFigura10.jpg)
-Perguntas Frequentes - Figura 10
+![Perguntas Frequentes Figura 11](img/PerguntasFrequentesFigura11.jpg)
+Perguntas Frequentes - Figura 11
