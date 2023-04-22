@@ -6,9 +6,9 @@ As definições ferramentais utilizadas para o desenvolvimento e a manutenção 
 ## Relação de Ambiente de Trabalho
 | Ambiente| Plataforma | Link de Acesso |
 |---------|------------|----------------|
-| Repositório de código fonte | GitHub |[Github](https://github.com)|
-| Documento do Projeto | GitHub| [Github](https://github.com)|
-| Projeto de Interface e Wireframes | MArvelApp | [Marvel](https://marvelapp.com/project/6697348)|
+| Repositório de código fonte | GitHub |[Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t7-tsf)|
+| Documento do Projeto | GitHub| [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t7-tsf)|
+| Projeto de Interface e Wireframes | MarvelApp | [Marvel](https://marvelapp.com/project/6697348)|
 | Gerenciamento do Projeto | Trello | [Trello](https://trello.com/b/Lrsx2WGe/tsf)
 
 ## Gerenciamento do Projeto
