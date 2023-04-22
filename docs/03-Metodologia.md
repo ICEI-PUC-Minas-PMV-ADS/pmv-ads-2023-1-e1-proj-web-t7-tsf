@@ -30,5 +30,5 @@ Organizando-se da seguinte forma:
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello.
 O quadro TSF na ferramenta de gerenciamento de projetos está disponível através da [Trello](https://trello.com/b/Lrsx2WGe/tsf) e é apresentado, no estado atual, na Figura 1.
 
-![Tela Trello utilizada pelo grupo](img/Figura1Trello.PNG)
+![Tela Trello utilizada pelo grupo](img/TrelloFigura1.PNG)
 Tela Trello utilizada pelo grupo
