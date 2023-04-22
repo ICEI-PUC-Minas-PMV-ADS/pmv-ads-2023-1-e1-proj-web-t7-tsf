@@ -55,8 +55,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Todos os botões devem ser clicáveis                  | MÉDIA |
 |RF-005| Na página principal, devemos deixar claro o propósito <br/> do site já que envolve assuntos sensíveispropósito do site já que envolve assuntos sensíveis | MÉDIA |
 |RF-006| O site deve apresentar na página de relatos, cards com <br/> identificação anônima ou não, opção de relatar    | MÉDIA |
-|RF-007| O site deve apresentar na página de relatos, cards com <br/> identificação anônima ou não, e com relatos de pessoas que relataram   | MÉDIA |         
-|RF-008| O site deve funcionar em mobile e desktop            | BAIXA |
+|RF-007| O site deve apresentar na página de relatos, cards com <br/> identificação anônima ou não, e com relatos de pessoas que relataram   | MÉDIA | 
+|RF-008| O site deve apresentar um formulário/e-mail para suporte    | MÉDIA | 
+
          
 
 
@@ -68,7 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Interface de usuário                                              | MÉDIA | 
 |RNF-003| O sistema deve ser fácil de usar e entender                       | MÉDIA | 
 |RNF-004| O sistema deve rodar em diferentes plataformas com <br/> alterações mínimas    | MÉDIA | 
-|RNF-005| Chat Online para suporte                                          | BAIXA | 
+|RNF-005| O site deve ser responsivo          | MÉDIA |
            
 
 ## Restrições
