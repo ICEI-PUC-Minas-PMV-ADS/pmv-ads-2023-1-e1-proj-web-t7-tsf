@@ -7,9 +7,7 @@
  
  O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar por completo, acesse [Marvel](https://marvelapp.com/project/6697348).
  
-![Diagrama Figura 2](img/DiagramaFigura2.jpg)
-
-Diagrama - Figura 2
+![Diagrama Figura 2](img/DiagramaFigura2.jpg)Diagrama - Figura 2
 
 
 ## Wireframes
@@ -78,7 +76,7 @@ Relatos - Figura 10
 
 **Tela Perguntas Frequentes**
 
-A tela Perguntas Frequentes apresenta uma série de perguntas e respostas para ajudar os usuários na usabilidade do site.
+A tela Perguntas Frequentes apresenta uma série de perguntas e respostas para ajudar os usuários na usabilidade do site. Haverá um formulário para contato em caso de dúvidas.
 
 ![Perguntas Frequentes Figura 11](img/PerguntasFrequentesFigura11.jpg)
 Perguntas Frequentes - Figura 11
