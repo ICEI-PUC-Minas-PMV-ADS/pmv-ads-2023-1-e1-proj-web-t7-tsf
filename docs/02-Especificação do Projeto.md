@@ -65,7 +65,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------------------------------------------------|-------|
-|RNF-001| O site deve apresentar na tela de cadastro de psicólogo, <br/> a escolha do plano que ele quer assinar          | MÉDIA | 
+|RNF-001| O site deve apresentar na tela de cadastro de psicólogo          | MÉDIA | 
 |RNF-002| Interface de usuário                                              | MÉDIA | 
 |RNF-003| O sistema deve ser fácil de usar e entender                       | MÉDIA | 
 |RNF-004| O sistema deve rodar em diferentes plataformas com <br/> alterações mínimas    | MÉDIA | 
