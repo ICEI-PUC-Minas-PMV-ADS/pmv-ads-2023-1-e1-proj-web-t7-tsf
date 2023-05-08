@@ -19,7 +19,7 @@
         <ul>
             <li><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
             <li><a class="nav-bar-link" href="homepage.html">Home Page</a> </li>
-            <li><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
+            <li id="menu_selecao"><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
             <li><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
@@ -33,7 +33,15 @@
         <aside class="aside">
             <div class="show">
                 <p> Aqui você pode ver o perfil de todos os psicólogos disponíveis. </p>
+
+                <form action="/cadastro_psicologos" method="post">
+                    <label for="busca">Busca</label>
+                    <input type="text" id="busca" />
+
+
+                </form>
             </div>
+            
             <div class="cards_psicologo">
                 <div>
                     <img class="img_perfil_psicologo" src="img/mariacristina.jpg">
@@ -89,7 +97,7 @@
                     <a class="cards_1_saibamais" href="#">Entrar em contato com Maria...</a> </li>
                 </div>
             </div>
-          
+
 
         </aside>
 
