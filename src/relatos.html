@@ -20,7 +20,7 @@
             <li><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
             <li><a class="nav-bar-link" href="homepage.html">Home Page</a> </li>
             <li><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
-            <li><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
+            <li id="menu_selecao"><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
@@ -30,9 +30,80 @@
 
     <article>
 
-        <!-- O conteudo das páginas deve ficar aqui!-->
+        <aside class="aside">
+            <div class="show">
+                <p> Deixe aqui seu relato! </p>
+            </div>
+
+
+            <div class="formulario_relatos">
+                <img class="img_cadastro" src="img/fabianafatima.jpg">
+
+            </div>
+            <div class="formulario_cadastro">
+                <form action="/cadastro_psicologos" method="post">
+
+                    <label for="msg">Relato</label>
+                    <textarea id="msg"></textarea>
+                    <p>(Seu relato irá passar por aprovação em até 24h)</p>
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </div>
+
+            <div class="cards_relatos">
+                <div>
+                    <img class="img_perfil_imigrante" src="img/fabianafatima.jpg">
+                </div>
+                <div class="cards_imigrante_nome">
+                    <p>Fabiana de Fátima Pereira</p>
+                </div>
+                <div class="cards_imigrante-relato">
+                    <p> Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo
+                        esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas,
+                        dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família mas,
+                        adora andar à toa para conhecer cidades e passear pelos parques. Está em busca de conhecer novas
+                        pessoas, culturas e novos lugares.</p>
+                </div>
+            </div>
+
+            <div class="cards_relatos">
+                <div>
+                    <img class="img_perfil_imigrante" src="img/fabianafatima.jpg">
+                </div>
+                <div class="cards_imigrante_nome">
+                    <p>Fabiana de Fátima Pereira</p>
+                </div>
+                <div class="cards_imigrante-relato">
+                    <p> Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo
+                        esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas,
+                        dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família mas,
+                        adora andar à toa para conhecer cidades e passear pelos parques. Está em busca de conhecer novas
+                        pessoas, culturas e novos lugares.</p>
+                </div>
+            </div>
+
+            <div class="cards_relatos">
+                <div>
+                    <img class="img_perfil_imigrante" src="img/fabianafatima.jpg">
+                </div>
+                <div class="cards_imigrante_nome">
+                    <p>Fabiana de Fátima Pereira</p>
+                </div>
+                <div class="cards_imigrante-relato">
+                    <p> Fabiana de Fátima dos Santos Pereira tem 33 anos, é analista financeira em uma empresa do ramo
+                        esportivo. Durante sua expedições sente dificuldade em acomodações com muitas pessoas,
+                        dificuldade em se adaptar com temperaturas muito baixas e sente muita saudade da família mas,
+                        adora andar à toa para conhecer cidades e passear pelos parques. Está em busca de conhecer novas
+                        pessoas, culturas e novos lugares.</p>
+                </div>
+            </div>
+
+        </aside>
+
 
     </article>
+
 
 
     <footer class="footer">
@@ -51,7 +122,7 @@
         </div>
 
     </footer>
- 
+
 </body>
 
 </html>
