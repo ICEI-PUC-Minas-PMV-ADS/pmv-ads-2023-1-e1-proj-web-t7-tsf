@@ -41,123 +41,88 @@
 .aside {
     margin-left: 400px;
     margin-right: 20px;
-    margin-bottom: 110px;
+    margin-bottom: 120px;
     width: 1200px;
     height: auto;
 }
 
 .show {
-    width: 75%;
+    width: 950px;
     height: 100px;
     margin-top: 60px;
     text-align: center;
-    font-family: monospace;
-    font-weight: bold;
+    font-family: system-ui;
     font-size: 18px;
     color: #103075;
+    text-align: center;
 }
 
 .cards_1 {
     border: 1px solid rgb(235, 232, 232);
     width: 450px;
-    height: 300px;
+    height: auto;
     margin-top: 40px;
     margin-right: 40px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    float: left;
+     float: left;
 }
 
-.cards_1_titulo {
-    width: 350px;
-    height: 30px;
-    margin: 1px;
-    padding-left: 20px;
+.cards_titulo {
+    margin-right: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    display: inline;
+    margin-left: -420px;
+    margin-top: 90px;
+}
+.cards_img{
+    width: 450px;
+    height: 150px;
+    display: inline-block  ;
+    position: relative;
 }
 
-.cards_1_nome {
-    width: 350px;
+.cards_nome {
     height: 30px;
+    font-family: fantasy;
     padding-left: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.cards_1_descricao {
-    width: 400px;
+.cards_descricao { 
     height: auto;
-    padding-left: 20px;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui;
     font-size: 14px;
-}
-
-
-.cards_1_saibamais {
-    width: 400px;
-    height: auto;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: dimgray;
-    margin: 1px;
     padding-left: 20px;
-    margin-top: 40px;
+    padding-right: 20px;
 }
-
+.cards:last-child {
+    margin-bottom: 150px;
+}
 
 .cards_2 {
     border: 1px solid rgb(235, 232, 232);
     width: 450px;
-    height: 300px;
+    height: auto;
     display: inline-block;
     margin-top: 40px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
-.cards_2_titulo {
-    width: 350px;
-    height: 30px;
-    margin: 1px;
-    padding-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.cards_2_nome {
-    width: 350px;
-    height: 30px;
-    padding-left: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-.cards_2_descricao {
-    width: 400px;
-    height: auto;
-    padding-left: 20px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.cards_2_saibamais {
-    width: 400px;
-    height: auto;
+.cards_saibamais {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: dimgray;
     margin: 1px;
     padding-left: 20px;
-    margin-top: 40px;
+   
 }
 
 .cards_3 {
     border: 1px solid rgb(235, 232, 232);
     width: 450px;
-    height: 200px;
+    height: autp;
     margin-top: 40px;
     margin-right: 40px;
     flex-direction: row;
@@ -167,48 +132,10 @@
 
 }
 
-.cards_3_titulo {
-    width: 350px;
-    height: 30px;
-    margin: 1px;
-    padding-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.cards_3_nome {
-    width: 350px;
-    height: 30px;
-    padding-left: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-}
-
-.cards_3_descricao {
-    width: 400px;
-    height: auto;
-    padding-left: 20px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.cards_3_saibamais {
-    width: 400px;
-    height: auto;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: dimgray;
-    margin: 1px;
-    padding-left: 20px;
-    margin-top: 40px;
-}
-
 .cards_4 {
     border: 1px solid rgb(235, 232, 232);
     width: 450px;
-    height: 200px;
+    height: auto;
     display: inline-block;
     margin-top: 40px;
     flex-direction: row;
@@ -217,56 +144,39 @@
 
 }
 
-.cards_4_titulo {
-    width: 350px;
-    height: 30px;
-    margin: 1px;
-    padding-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
-
-.cards_4_nome {
-    width: 350px;
-    height: 30px;
-    padding-left: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-}
-
-.cards_4_descricao {
-    width: 400px;
-    height: auto;
-    padding-left: 20px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.cards_4_saibamais {
-    width: 400px;
-    height: auto;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: dimgray;
-    margin: 1px;
-    padding-left: 20px;
-    margin-top: 40px;
-}
-
-.cards_psicologo {
+.cards {
     border: 1px solid rgb(235, 232, 232);
-    width: 800px;
-    height: 600px;
+    width: 900px;
+    height: auto;
     margin-top: 40px;
     margin-right: 40px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    float: left;
+}
+.cards_psicologo:last-child {
+    margin-bottom: 150px;
+}
+.cards_psicologo1 {
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 400px;
+    display: grid;
     float: left;
 }
 
+.info_usuario{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info_usuario_1{
+    height: auto;
+    text-align: justify;
+    font-family: system-ui;
+    margin-top: 1px;
+
+}
 
 .cards_psicologo_nome {
     width: 800px;
@@ -283,11 +193,23 @@
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    
 }
 
 .cadastro_psicologo {
     display: inline;
 
+}
+
+.cards_psicologo_perfil{
+    width: 900px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
 }
 
 .img_cadastro {
@@ -348,6 +270,8 @@ input:focus {
 
 .img_perfil_psicologo {
     float: left;
+    display: block;
+    padding-right: 20px;
 
 }
 
@@ -364,10 +288,7 @@ input:focus {
     margin-top: 40px;
 }
 
-.btn {
-    
-    
-}
+
 
 button{
     color: #ffffff;
