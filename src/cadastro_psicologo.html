@@ -17,7 +17,7 @@
     </header>
     <nav class="nav-bar">
         <ul>
-            <li><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
+            <li id="menu_selecao"><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
             <li><a class="nav-bar-link" href="homepage.html">Home Page</a> </li>
             <li><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
             <li><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
@@ -30,9 +30,79 @@
 
     <article>
 
-        <!-- O conteudo das páginas deve ficar aqui!-->
+        <aside class="aside">
+            <div class="show">
+                <p> Prezado Psicólogo, preencha o formulário para se cadastrar. </p>
+            </div>
+
+
+            <div class="formulario_cadastro_top">
+                <img class="img_cadastro" src="img/mariacristina.jpg">
+               
+            </div>
+            <div class="formulario_cadastro">
+                <form action="/cadastro_psicologos" method="post">
+
+                    <label for="msg">Abordagem</label>
+                    <textarea id="msg"></textarea>
+
+                    <label for="drop">Drop exemplo</label>
+                    <select id="drop">
+                        <option value="1">Opção 1</option>
+                        <option selected value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+
+                    <label for="crp">CRP</label>
+                    <input type="number" id="crp" required />
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" />
+
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" />
+
+                    <label for="number">Número</label>
+                    <input type="number" id="number " />
+
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" />
+
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" />
+
+                    <label for="cep">CEP</label>
+                    <input type="number" id="cep" />
+
+                    <label for="tel">Telefone</label>
+                    <input type="number" id="tel" />
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" inputmode="email"/>
+
+                    <label for="senha">Senha</label>
+                    <input type="senha" id="senha" />
+
+                    <label for="senha">Confima Senha</label>
+                    <input type="senha" id="senha" />
+
+                    <div class="btn_enviar">
+                        <button type="submit">Enviar</button>
+                    </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+
+        </aside>
+
 
     </article>
+
+
 
 
     <footer class="footer">
@@ -51,7 +121,7 @@
         </div>
 
     </footer>
- 
+
 </body>
 
 </html>

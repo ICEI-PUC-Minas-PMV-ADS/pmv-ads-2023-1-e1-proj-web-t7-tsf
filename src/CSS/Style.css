@@ -15,15 +15,14 @@
 .nav-bar {
     width: 20%;
     float: left;
-
-    
-
+    position: fixed;
+    left: 0;
 }
 
 .nav-bar li {
     list-style: none;
     border-bottom: 1px solid rgb(235, 232, 232);
-    padding: 18px;
+    padding: 19px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -36,18 +35,281 @@
     background-color: #FAECF1;
 }
 
-.aside{
-   display:inline;
+#menu_selecao{
+    background-color: #FAECF1;
+}
+.aside {
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    width: 1200px;
+    height: auto;
+}
 
+.show {
+    width: 950px;
+    height: 100px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: system-ui;
+    font-size: 18px;
+    color: #103075;
+    text-align: center;
+}
+
+.cards_1 {
+    border: 1px solid rgb(235, 232, 232);
+    width: 450px;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+     float: left;
+}
+
+.cards_titulo {
+    margin-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    display: inline;
+    margin-left: -420px;
+    margin-top: 90px;
+}
+.cards_img{
+    width: 450px;
+    height: 150px;
+    display: inline-block  ;
+    position: relative;
+}
+
+.cards_nome {
+    height: 30px;
+    font-family: fantasy;
+    padding-left: 20px;
+}
+
+.cards_descricao { 
+    height: auto;
+    text-align: justify;
+    font-family: system-ui;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cards:last-child {
+    margin-bottom: 150px;
+}
+
+.cards_2 {
+    border: 1px solid rgb(235, 232, 232);
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+    position: relative;
+}
+
+.cards_saibamais {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    margin: 1px;
+    padding-left: 20px;
+   
+}
+
+.cards_3 {
+    border: 1px solid rgb(235, 232, 232);
+    width: 450px;
+    height: autp;
+    margin-top: 40px;
+    margin-right: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+}
+
+.cards_4 {
+    border: 1px solid rgb(235, 232, 232);
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cards {
+    border: 1px solid rgb(235, 232, 232);
+    width: 900px;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+    float: left;
+}
+.cards_psicologo:last-child {
+    margin-bottom: 150px;
+}
+.cards_psicologo1 {
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 400px;
+    display: grid;
+    float: left;
+}
+
+.info_usuario{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info_usuario_1{
+    height: auto;
+    text-align: justify;
+    font-family: system-ui;
+    margin-top: 1px;
+
+}
+
+.cards_psicologo_nome {
+    width: 800px;
+    height: 30px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards_psicologo_descricao {
+    width: 600px;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.cadastro_psicologo {
+    display: inline;
+
+}
+
+.cards_psicologo_perfil{
+    width: 900px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.img_cadastro {
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: block;
+}
+
+.formulario_cadastro_top {
+    width: 500px;
+    display: flex;
+    float: left;
+}
+
+.textarea_cadastro {
+    padding-left: 15px;
+}
+
+#msg {
+    width: 398px;
+    height: 139px;
+}
+
+.formulario_cadastro{
+    padding-left: 165px;
+    display: block;
+
+
+}
+
+label {
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: #5f5e5e;
+    display: block;
+}
+
+input {
+    width: 400px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    background-color: lightblue;
+    color: black;
+}
+
+.cards_cadastro {
+    width: 1100px;
+    height: auto;
+
+}
+
+.img_perfil_psicologo {
+    float: left;
+    display: block;
+    padding-right: 20px;
+
+}
+
+
+
+.cards_psicologo_contato {
+    width: 800px;
+    height: auto;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    margin: 1px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+button{
+    color: #ffffff;
+    background-color: #8e8f91;
+    border-color: #8e8f91;
+    font-size: 17px;
+}
+
+.img_perfil_imigrante{
+ width: 150px;
+ height: 150px;
+ display: flex;
 }
 
 .footer {
     background-color: #FAECF1;
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    
+
 }
 
 .footer-content li {
