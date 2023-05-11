@@ -32,9 +32,9 @@ Na Home Page está claro o propósito do site "Alguns sentimentos inesperados su
 ## Página de Cadastro de Psicólogos (RF02)
 A Página Cadastro Psicólogos apresenta um formulário requerendo informações como e-mail, CRP, Tleefone, Abordagem. 
 
-![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo1.jpg) Formulario Cadastro Psicologo
-![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo2.jpg) Formulario Cadastro Psicologo
-![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo3.jpg) Formulario Cadastro Psicologo
+![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo1.JPG) Formulario Cadastro Psicologo
+![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo2.JPG) Formulario Cadastro Psicologo
+![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo3.JPG) Formulario Cadastro Psicologo
 
 ### Requisitos Atendidos
 1.RF-02
@@ -58,7 +58,7 @@ A Página Cadastro Psicólogos apresenta um formulário requerendo informações
 ## Página de Cadastro de Pacientes (Imigrantes) (RF03)
 A Página Cadastro de Pacientes (Imigrantes) apresenta um formulário para cadastrar formas de contato.
 
-![Formulario Cadastro Imigrante](img/FormularioImigrante.jpg) Formulario Cadastro Imigrante
+![Formulario Cadastro Imigrante](img/FormularioCadastroImigrante.JPG) Formulario Cadastro Imigrante
 
 ### Requisitos Atendidos
 1. RF-03
