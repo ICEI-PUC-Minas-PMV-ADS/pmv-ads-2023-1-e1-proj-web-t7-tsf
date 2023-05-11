@@ -21,5 +21,4 @@ O template criado está disponível no site       e é composto pelos seguintes 
 
 Tela que abrange todas as visualizações iniciais, a lista de navegação do site, bem como rodapé.
 
-
-![Home_Page](img/Home_Page.jpg)Home Page - TSF
+![Home_Page](img/Home_page.JPG)Home Page TSF
