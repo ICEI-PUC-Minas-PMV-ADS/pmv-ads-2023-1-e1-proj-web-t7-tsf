@@ -363,7 +363,7 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.background_login {
+.background  {
     margin-left: 35%;
     margin-top: 5%;
     height: 250px;
@@ -408,4 +408,27 @@ button{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao_esqueci_senha {
+    margin-top: 2%;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 1.1em;
+    background-color: black;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao_redefinir_senha {
+    margin-top: 2%;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 1.1em;
+    background-color: black;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subtitulo {
+    font-size: 20px;
 }
