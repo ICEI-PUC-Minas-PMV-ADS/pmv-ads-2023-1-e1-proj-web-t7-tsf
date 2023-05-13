@@ -1,12 +1,12 @@
 # Programação de Funcionalidades
 
-As telas desenvolvidas para cada uma das funcionalidades so sistema serão apresentadas nessa seção. 
+As telas desenvolvidas para cada uma das funcionalidades do sistema serão apresentadas nessa seção. 
 
 
 ## Página Inicial com cards (RF01 - RF05)
 
-A Home Page apresenta 04 cards com destaque para: psicólogos disponíveis, relatos de imigrantes, dicas para imigrantes e perguntas frequentes.<br>
-Na Home Page está claro o propósito do site "Alguns sentimentos inesperados surgem para algumas pessoas que estão fora de seu país de origem, entendemos isso e podemos te ajudar.Aqui você encontrará uma rede de psicólogos com experiência em Terapia para Imigrantes."
+A Home Page apresenta 04 cards com destaque para: Psicólogos Disponíveis, Relatos de Imigrantes, Dicas para Imigrantes e Perguntas Frequentes.<br>
+Na Home Page está claro o propósito do site: "Certos sentimentos inesperados surgem para algumas pessoas que estão fora de seu país de origem, entendemos isso e podemos ajudar. Aqui você encontrará uma rede de psicólogos com experiência em Terapia para Imigrantes."
 
 ![Home Page](img/HomePage.jpg) Home Page 
 
@@ -30,7 +30,7 @@ Na Home Page está claro o propósito do site "Alguns sentimentos inesperados su
 
 
 ## Página de Cadastro de Psicólogos (RF02)
-A Página Cadastro Psicólogos apresenta um formulário requerendo informações como e-mail, CRP, Tleefone, Abordagem. 
+A Página Cadastro Psicólogos apresenta um formulário requerendo informações como E-mail, CRP, Telefone, Abordagem. 
 
 ![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo1.JPG) Formulario Cadastro Psicologo
 ![Formulario Cadastro Psicologo](img/FormularioCadastroPsicologo2.JPG) Formulario Cadastro Psicologo
@@ -74,12 +74,12 @@ A Página Cadastro de Pacientes (Imigrantes) apresenta um formulário para cadas
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
-2. A Pagina de Cadastro para Imigrantes possui um formulário para cadastro de Pacientes.
+2. A Página de Cadastro para Imigrantes possui um formulário para cadastro de Pacientes.
 
 
 
 ## Página de Relatos  (RF06 - RF07)
-A Página de Relartos dos Imigrantes apresenta opção para que usuários Imigrantes possam relatar com a opção de ser um relato anônimo ou não.
+A Página de Relatos dos Imigrantes apresenta uma opção para que usuários possam relatar anonimamente ou não.
 
 ![Relatos](img/relatos.jpg) Pagina de Relatos
 ### Requisitos Atendidos
@@ -96,10 +96,10 @@ A Página de Relartos dos Imigrantes apresenta opção para que usuários Imigra
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
-2. A Pagina de Relatos possui todos os relatos enviados pelos usuários, que foram aprovados. E há opção de relatar anonimamente. 
+2. A Página de Relatos possui todos os relatos enviados pelos usuários que foram previamente aprovados. E há opção de relatar anonimamente. 
 
 ## Página de Suporte - Entre em Contato  (RF08)
-A Página Entre em Contato, possui formaulario para envio de dúvidas, sugestões e reclamações, além de informar um e-mail para suporte. 
+A Página Entre em Contato possui formulário para envio de dúvidas, sugestões e reclamações, além de informar um e-mail para suporte. 
 
 
 ### Requisitos Atendidos
@@ -116,5 +116,5 @@ A Página Entre em Contato, possui formaulario para envio de dúvidas, sugestõe
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
-2. A Pagina Entre em Contato é possível fazer contato através de um formulário.
-3. A Entre em Contato informa e-mail para contato com área de suporte.
+2. Na Página Entre em Contato, é possível fazer contato através de um formulário
+3. A página Entre em Contato informa um e-mail para contato com área de suporte
