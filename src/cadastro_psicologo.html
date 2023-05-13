@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="JS/script_TSF.js"></script>
     <title>Terapia Sem Fronteiras</title>
 </head>
 
@@ -43,7 +45,7 @@
                 <form action="/cadastro_psicologos" method="post">
 
                     <img class="img_cadastro" src="img/mariacristina.jpg">
-                    <input type="file" name="" id="btn">
+                    <input type="file" name="" id="img_cadastro">
 
                     <label for="msg">Abordagem</label>
                     <textarea id="msg"></textarea required >
@@ -58,7 +60,7 @@
                     <input type="text" id="endereco" />
 
                     <label for="number">Número</label>
-                    <input type="number" id="number " />
+                    <input type="number" id="numero" />
 
                     <label for="cidade">Cidade</label>
                     <input type="text" id="cidade" />
@@ -79,10 +81,10 @@
                     <input type="senha" id="senha" />
 
                     <label for="senha">Confima Senha</label>
-                    <input type="senha" id="senha" />
+                    <input type="senha" id="confisenha" />
 
                     <div class="btn_enviar">
-                        <button type="submit">Enviar</button>
+                        <button onclick="adicionarPsicologo()"  type="submit">Enviar</button>
                     </div>
                 </form>
 
