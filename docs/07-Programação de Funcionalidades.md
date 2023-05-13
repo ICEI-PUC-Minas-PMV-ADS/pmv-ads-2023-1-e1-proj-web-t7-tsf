@@ -254,7 +254,7 @@ A Página de Relartos dos Imigrantes apresenta opção para que usuários Imigra
 
 ## Página de Suporte - Entre em Contato  (RF08)
 A Página Entre em Contato, possui formaulario para envio de dúvidas, sugestões e reclamações, além de informar um e-mail para suporte. 
-
+![Contato](img/EntreEmContato.JPG) Entre em contato
 
 ### Requisitos Atendidos
 1. RF-08
@@ -266,7 +266,33 @@ A Página Entre em Contato, possui formaulario para envio de dúvidas, sugestõe
 
 ### Estrutura de Dados
 
+        <aside class="aside">
+            <div class="show">
+                <p> Fale conosco!</p>
+            </div>
 
+        <div class="formulario_suporte">
+            <form>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" />
+
+                <label for="tel">Telefone</label>
+                <input type="number" id="tel" required />
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" inputmode="email" required /> 
+                <label for="msg">Mensagem:</label>
+                <textarea id="msgrelato"></textarea>
+                <p class="info_usuario">Entraremos em contato o mais breve possível.</p>    
+
+
+                <div class="btn">
+                    <button onclick="enviarmensagem()" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </aside>
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
