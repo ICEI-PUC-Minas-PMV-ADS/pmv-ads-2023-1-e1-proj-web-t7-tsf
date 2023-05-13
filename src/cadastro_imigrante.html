@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="JS/script_TSF.js"></script>
     <title>Terapia Sem Fronteiras</title>
 </head>
 
@@ -17,7 +19,7 @@
     </header>
     <nav class="nav-bar">
         <ul>
-            <li id="menu_selecao"><a  class="nav-bar-link" href="login.html">Login/Logout</a> </li>
+            <li id="menu_selecao"><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
             <li><a class="nav-bar-link" href="homepage.html">Home Page</a> </li>
             <li><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
             <li><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
@@ -39,48 +41,44 @@
             <div class="formulario_cadastro_top">
 
                 <img class="img_cadastro" src="img/fabianafatima.jpg">
-                
-               
-                <div  class="formulario_cadastro">
-                <form action="/cadastro_imigrante" method="post">
-
-                    <input type="file" name="" id="btn">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" />
-
-                    <label for="pais">País de Origem</label>
-                    <input type="text" id="pais" />
-
-                    <label for="pais">País de Atual</label>
-                    <input type="text" id="pais" />
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" required />
-
-                    <label for="senha">Senha</label>
-                    <input type="senha" id="senha" />
-
-                    <label for="tel">Telefone</label>
-                    <input type="number" id="tel" required />
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" inputmode="email" required  />
 
 
-                    <label for="senha">Confima Senha</label>
-                    <input type="senha" id="senha" />
+                <div class="formulario_cadastro">
+                    <form>
 
-                 
+                        <input type="file" name="" id="btn">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" />
 
-                    <div class="btn">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-            </div>
-              
-           
+                        <label for="pais">País de Origem</label>
+                        <input type="text" id="paisorigem" />
 
-            
+                        <label for="pais">País de Atual</label>
+                        <input type="text" id="paisatual" />
+
+                        <label for="tel">Telefone</label>
+                        <input type="number" id="tel" required />
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" inputmode="email" required />
+
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" />
+
+                        <label for="senha">Confima Senha</label>
+                        <input type="password" id="confsenha" />
+
+
+
+                        <div class="btn">
+                            <button onclick="adicionarImigrante()" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
             </div>
 
 
