@@ -12,6 +12,7 @@ Na Home Page está claro o propósito do site "Alguns sentimentos inesperados su
 
 ### Requisitos Atendidos
 1. RF-01
+2. RF-05
 
 ### Artefatos da funcionalidade
 1. index.html
@@ -22,7 +23,6 @@ Na Home Page está claro o propósito do site "Alguns sentimentos inesperados su
 6. card_perguntasfrequentes.jpg
 
 ### Estrutura de Dados
-´´´
 
 <div class="cards_1">
             <img class="cards_img" src="img/card_profissionais.jpg">
@@ -66,8 +66,6 @@ Na Home Page está claro o propósito do site "Alguns sentimentos inesperados su
                 utilizada para as sessões.</p>
             <a class="cards_saibamais" href="perguntas_frequentes.html">Tenho outras dúvidas...</a>
         </div>
-        
-        ´´´
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
@@ -90,8 +88,6 @@ A Página Cadastro Psicólogos apresenta um formulário requerendo informações
 
 
 ### Estrutura de Dados
-
-´´´
 
 <div class="formulario_cadastro">
 
@@ -143,7 +139,6 @@ A Página Cadastro Psicólogos apresenta um formulário requerendo informações
                 </form>
 
             </div>
- ´´´
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
@@ -166,8 +161,6 @@ A Página Cadastro de Pacientes (Imigrantes) apresenta um formulário para cadas
 
 
 ### Estrutura de Dados
-
-´´´
 
  <div class="formulario_cadastro_top">
 
@@ -206,8 +199,6 @@ A Página Cadastro de Pacientes (Imigrantes) apresenta um formulário para cadas
                         </div>
                     </form>
                 </div>
-  
-´´´
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
@@ -229,7 +220,33 @@ A Página de Relartos dos Imigrantes apresenta opção para que usuários Imigra
 
 ### Estrutura de Dados
 
+ <div class="show">
+            <p > Deixe aqui seu relato! </p>
+        </div>
+        <div class="">
+            <img class="img_cadastro" src="img/fabianafatima.jpg">
+        </div>
 
+
+        <div class="relatos">
+            <form>
+                <div class="cards_relatos">
+                    <p>Relato Anônimo?
+                    <select id="anonimo">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </p>
+
+                </div>
+
+                <label for="msg">Seu Relato</label>
+                <textarea id="msgrelato"></textarea>
+                <p class="info_usuario">(Seu relato irá passar por aprovação em até 24h)</p>
+                <button onclick="adicionarRelatos()" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="lstRelatos" class="cards">     
+        </div>
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: http/;
