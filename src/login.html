@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="JS/script_TSF.js"></script>
     <title>Tela de login</title>
 </head>
 
@@ -16,49 +18,46 @@
     </header>
     <nav class="nav-bar">
         <ul>
-            <li id="menu_selecao"><a class="nav-bar-link" href="login.html">Login/Logout</a> </li>
+            <li id="menu_selecao"><a id="loginlogout" class="nav-bar-link" href="login.html">Login</a> </li>
             <li><a class="nav-bar-link" href="homepage.html">Home Page</a> </li>
             <li><a class="nav-bar-link" href="psicologos.html">Psicólogos</a> </li>
             <li><a class="nav-bar-link" href="relatos.html">Relatos</a> </li>
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
+            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html" style="display: none;">Logout</a> </li>
         </ul>
     </nav>
 
-    <form class="background">
-    <form>
+    <div class="background">
         <fieldset class="grupo">
             <p class="titulo">Entre na sua conta</p>
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="E-mail" id="e-mail" required>
-                <label for="password">Senha</label>
-                <input type="password" name="senha" id="senha" required>
-            </div>
-            <button class="botao_entrar" type="submit">Entrar</button>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="E-mail" id="email" required>
+            <label for="password">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <button onclick="Login()" class="botao_entrar" type="submit">Entrar</button>
             <a href="criar_login.html" class="botao_cadastrar"><button class="botao_cadastrar">Criar um Login</a>
             <a href="forgot_password.html" class="botao_esqueci_senha"><button class="botao_esqueci_senha"> Esqueci minha senha</a>
         </fieldset>
-        
-    </form>
-</form>
+    </div>
 </body>
 
-    <footer class="footer">
-        <div class="footer-content-img">
-            <img class="img-footer" src="img/logo.jpg">
-        </div>
-        <div class="footer-content">
-            <ul>
-                <li><a id="facebook-link" href="https://Instagram.com.br"><i class="fa fa-facebook-f"></i></a> </li>
-                <li><a id="instagram-link" href="https://Instagram.com.br"><i class="fa fa-instagram"></i></a> </li>
-                <li><a id="whatsapp-link" href="https://Wa.me/+5511911719044.br"><i class="fa fa-whatsapp"></i></a></li>
-            </ul>
-            <p class="footer-slogan"> Conte com a gente em qualquer lugar do mundo!</p>
-            <p id="copy">&copy; 2023 terapiasemfronteiras.com.br</p>
+<footer class="footer">
+    <div class="footer-content-img">
+        <img class="img-footer" src="img/logo.jpg">
+    </div>
+    <div class="footer-content">
+        <ul>
+            <li><a id="facebook-link" href="https://Instagram.com.br"><i class="fa fa-facebook-f"></i></a> </li>
+            <li><a id="instagram-link" href="https://Instagram.com.br"><i class="fa fa-instagram"></i></a> </li>
+            <li><a id="whatsapp-link" href="https://Wa.me/+5511911719044.br"><i class="fa fa-whatsapp"></i></a></li>
+        </ul>
+        <p class="footer-slogan"> Conte com a gente em qualquer lugar do mundo!</p>
+        <p id="copy">&copy; 2023 terapiasemfronteiras.com.br</p>
 
-        </div>
+    </div>
 
-    </footer>
-    
+</footer>

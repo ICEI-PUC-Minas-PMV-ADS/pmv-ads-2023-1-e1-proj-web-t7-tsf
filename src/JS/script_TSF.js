@@ -7,7 +7,7 @@ $(function () {
 		tbPsicologos = [];
 		carregarListaPsicologos();
 	} else carregarCardsPsicologos();
-
+	verificarLogado();
 });
 
 function adicionarPsicologo() {
@@ -50,7 +50,8 @@ function carregarListaPsicologos() {
 		cep: "18120000",
 		telefone: "1147083533",
 		email: "maria@fladafi.com.br",
-		instagram: "@mariacris"
+		instagram: "@mariacris",
+		senha: "123456"
 
 	});
 	tbPsicologos.push(psicologo);
@@ -68,7 +69,9 @@ function carregarListaPsicologos() {
 		cep: "32152450",
 		telefone: "31938274569",
 		email: "jessica@martins.com.br",
-		instagram: "@mariacris"
+		instagram: "@mariacris",
+		senha: "123456"
+
 	});
 	tbPsicologos.push(psicologo);
 
@@ -85,7 +88,8 @@ function carregarListaPsicologos() {
 		cep: "04150236",
 		telefone: "1130852639",
 		email: "daniela@rufino.com.br",
-		instagram: "@danirufino"
+		instagram: "@danirufino",
+		senha: "123456"
 	});
 	tbPsicologos.push(psicologo);
 
@@ -133,24 +137,24 @@ function exibirPerfil() {
 		if (JSON.parse(tbPsicologos[i]).id == id) {
 			var registro = JSON.parse(tbPsicologos[i]);
 
-			
-				var registro = JSON.parse(tbPsicologos[i]);
-				$("#perfil_psicologo").html("<img class='img_perfil_psicologo' src='" + registro.imagem + "'>" +
-					"<p class='cards_nome'>" + registro.nome + "</p>" +
-					"<div class='cards_descricao'>" +
-					"<span class='info_usuario'>CRP</span>" +
-					"<p class='info_usuario_1'>" + registro.crp + " </p>" +
-					"<span class='info_usuario'>Abordagem</span>" +
-					"<p class='info_usuario_1'>" + registro.descricao + "</p>" +
-					"<span class='info_usuario'>Cidade - Estado - País</span>" +
-					"<p class='info_usuario_1'>" + registro.cidade + " </p>" +
-					"<span class='info_usuario'>E-mail</span>" +
-					"<p class='info_usuario_1'>" + registro.email + "</p>" +
-					"<span class='info_usuario'>Telefone</span>" +
-					"<p class='info_usuario_1'>" + registro.telefone + "</p>" +
-					"<span class='info_usuario'> Instagram</span>" +
-					"<p class='info_usuario_1'>" + registro.instagram + "</p>");
-			
+
+			var registro = JSON.parse(tbPsicologos[i]);
+			$("#perfil_psicologo").html("<img class='img_perfil_psicologo' src='" + registro.imagem + "'>" +
+				"<p class='cards_nome'>" + registro.nome + "</p>" +
+				"<div class='cards_descricao'>" +
+				"<span class='info_usuario'>CRP</span>" +
+				"<p class='info_usuario_1'>" + registro.crp + " </p>" +
+				"<span class='info_usuario'>Abordagem</span>" +
+				"<p class='info_usuario_1'>" + registro.descricao + "</p>" +
+				"<span class='info_usuario'>Cidade - Estado - País</span>" +
+				"<p class='info_usuario_1'>" + registro.cidade + " </p>" +
+				"<span class='info_usuario'>E-mail</span>" +
+				"<p class='info_usuario_1'>" + registro.email + "</p>" +
+				"<span class='info_usuario'>Telefone</span>" +
+				"<p class='info_usuario_1'>" + registro.telefone + "</p>" +
+				"<span class='info_usuario'> Instagram</span>" +
+				"<p class='info_usuario_1'>" + registro.instagram + "</p>");
+
 		}
 	}
 
@@ -230,6 +234,7 @@ function carregarListaImigrantes() {
 		paisatual: "Irlanda",
 		telefone: "1199999999",
 		email: "fabiana@fatima.com.br",
+		senha: "123456"
 
 	});
 	tbImigrantes.push(imigrante);
@@ -387,4 +392,77 @@ function salvarnovasenha() {
 			}
 		}
 	}
+}
+
+function Login() {
+
+	var encontrado = false;
+	var email = $("#email").val();
+	var senha = $("#senha").val();
+
+	for (i = 0; i < tbPsicologos.length; i++) {
+		var registro = JSON.parse(tbPsicologos[i])
+		if (registro.email == email) {
+			encontrado = true;
+			if (registro.senha == senha) {
+				localStorage.setItem("idLogado", registro.id);
+				localStorage.setItem("nomeLogado", registro.nome);
+
+				window.location.href = "homepage.html";
+
+			} else {
+				alert("Senha inválida");
+			}
+		}
+	}
+
+	if (!encontrado) {
+
+		for (i = 0; i < tbImigrantes.length; i++) {
+			var registro = JSON.parse(tbImigrantes[i])
+			if (registro.email == email) {
+				encontrado = true;
+				if (registro.senha == senha) {
+					localStorage.setItem("idLogado", registro.id);
+					localStorage.setItem("nomeLogado", registro.nome);
+
+					window.location.href = "homepage.html";
+
+				} else {
+					alert("Senha inválida");
+				}
+			}
+		}
+
+		if (!encontrado) {
+			alert("E-mail não cadastrado! Crie uma conta.");
+		}
+	}
+
+}
+
+
+
+function verificarLogado() {
+
+	if (localStorage.getItem("nomeLogado")) {
+
+		$("#loginlogout").html("Olá, " + localStorage.getItem("nomeLogado"));
+		$("#logout").show();
+		$("#loginlogout").attr("href", "#");
+	} else {
+
+		$("#logout").hide();
+	}
+
+
+
+}
+
+function logout() {
+
+	if (localStorage.getItem("nomeLogado")) {
+		localStorage.removeItem("nomeLogado");
+	}
+	window.location.href = "homepage.html";
 }
