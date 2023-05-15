@@ -28,7 +28,7 @@ Na Home Page está claro o propósito do site: "Certos sentimentos inesperados s
 ![Home HTML](img/homepage_html.jpg)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: https://liananagasawa.github.io/pmv-ads-2023-1-e1-proj-web-t7-tsf/src/homepage.html;
+1. Abra um navegador de internet e informe a seguinte URL: [http://terapiasemfronteiras.net](http://terapiasemfronteiras.net)
 2. A Home Page possui os 04 cards da primeira funcionalidade.
 
 
@@ -54,7 +54,7 @@ A Página Cadastro Psicólogos apresenta um formulário requerendo informações
 ![CadastroPsi JS](img/cadastropsi_js.jpg)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: https://liananagasawa.github.io/pmv-ads-2023-1-e1-proj-web-t7-tsf/src/cadastro_psicologo.html;
+1. Abra um navegador de internet e informe a seguinte URL: [http://terapiasemfronteiras.net](http://terapiasemfronteiras.net/src/cadastro_psicologo.html)
 2. A Pagina de Cadastro para Psicólogos possui um formulário para cadastro de Psicólogos.
 
 
@@ -80,8 +80,9 @@ A Página Cadastro de Pacientes (Imigrantes) apresenta um formulário para cadas
 ![CadastroIm JS](img/cadastroim_js.jpg)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: https://liananagasawa.github.io/pmv-ads-2023-1-e1-proj-web-t7-tsf/src/cadastro_imigrante.html;
+1. Abra um navegador de internet e informe a seguinte URL: [http://terapiasemfronteiras.net](http://terapiasemfronteiras.net/src/cadastro_imigrante.html)
 2. A Página de Cadastro para Imigrantes possui um formulário para cadastro de Pacientes.
+
 
 
 
@@ -105,8 +106,11 @@ A Página de Relatos dos Imigrantes apresenta uma opção para que usuários pos
 ![Relatos JS](img/relatos_js.jpg)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: https://liananagasawa.github.io/pmv-ads-2023-1-e1-proj-web-t7-tsf/src/relatos.html;
+1. Abra um navegador de internet e informe a seguinte URL: [http://terapiasemfronteiras.net](http://terapiasemfronteiras.net/src/relatos.html)
 2. A Página de Relatos possui todos os relatos enviados pelos usuários que foram previamente aprovados. E há opção de relatar anonimamente. 
+
+
+
 
 ## Página de Suporte - Entre em Contato  (RF08)
 A Página Entre em Contato possui formulário para envio de dúvidas, sugestões e reclamações, além de informar um e-mail para suporte. 
@@ -124,5 +128,5 @@ A Página Entre em Contato possui formulário para envio de dúvidas, sugestões
 ![Contato HTML](img/contato_html.jpg)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: https://liananagasawa.github.io/pmv-ads-2023-1-e1-proj-web-t7-tsf/src/entre_em_contato.html;
+1. Abra um navegador de internet e informe a seguinte URL: [http://terapiasemfronteiras.net](http://terapiasemfronteiras.net/src/entre_em_contato.html)
 2. Na Página Entre em Contato, é possível fazer contato através de um formulário
