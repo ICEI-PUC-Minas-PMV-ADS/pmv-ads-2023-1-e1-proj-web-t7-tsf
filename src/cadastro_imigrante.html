@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
     <script type="text/javascript" src="JS/script_TSF.js"></script>
     <title>Terapia Sem Fronteiras</title>
 </head>
@@ -26,7 +27,8 @@
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
-            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html" style="display: none;">Logout</a> </li>
+            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html"
+                    style="display: none;">Logout</a> </li>
         </ul>
     </nav>
 
@@ -41,11 +43,11 @@
 
             <div class="formulario_cadastro_top">
 
-                <img class="img_cadastro" src="img/fabianafatima.jpg">
+                <img class="img_cadastro" src="img/suaFotoAqui.png">
 
 
                 <div class="formulario_cadastro">
-                    <form>
+                    <form id="formCadastro" method="post">
 
                         <input type="file" name="" id="btn">
                         <label for="nome">Nome</label>
@@ -58,10 +60,10 @@
                         <input type="text" id="paisatual" />
 
                         <label for="tel">Telefone</label>
-                        <input type="number" id="tel" required />
+                        <input type="text" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
 
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" inputmode="email" required />
+                        <input type="email" id="email" name="email" inputmode="email" required />
 
                         <label for="senha">Senha</label>
                         <input type="password" id="senha" />
@@ -72,7 +74,7 @@
 
 
                         <div class="btn">
-                            <button onclick="adicionarImigrante()" type="submit">Enviar</button>
+                            <button onclick="adicionarImigrante()" type="button">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -105,6 +107,30 @@
         </div>
 
     </footer>
+
+    <script>$(document).ready(function () {
+            $('#formCadastro').validate({
+                rules: {
+                    nome: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    tel: "required",
+                    senha: "required",
+                    confsenha: "required",
+
+                },
+                messages: {
+                    nome: "O nome é obrigatório!",
+                    email: "O e-mail precisa ser válido",
+                    tel: "Seu telefone é necessário!",
+                    senha: "Defina uma senha",
+                    confsenha: "Confirme a senha digitada!"
+                }
+            });
+        });
+    </script>
 
 </body>
 

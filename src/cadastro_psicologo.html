@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
     <script type="text/javascript" src="JS/script_TSF.js"></script>
     <title>Terapia Sem Fronteiras</title>
 </head>
@@ -26,7 +27,8 @@
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
-            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html" style="display: none;">Logout</a> </li>
+            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html"
+                    style="display: none;">Logout</a> </li>
         </ul>
     </nav>
 
@@ -43,19 +45,19 @@
             <div class="formulario_cadastro">
 
 
-                <form action="/cadastro_psicologos" method="post">
+                <form id="formCadastro" method="post">
 
-                    <img class="img_cadastro" src="img/mariacristina.jpg">
+                    <img class="img_cadastro" src="img/suaFotoAqui.png">
                     <input type="file" name="" id="img_cadastro">
 
                     <label for="msg">Abordagem</label>
-                    <textarea id="msg"></textarea required >
+                    <textarea id="msg" name="msg"></textarea required >
 
                     <label for="crp">CRP</label>
-                    <input type="number" id="crp" required />
+                    <input type="number" name="crp" id="crp" required />
 
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" required />
+                    <input type="text" id="nome" name="nome" required />
 
                     <label for="endereco">Endereço</label>
                     <input type="text" id="endereco" />
@@ -70,22 +72,25 @@
                     <input type="text" id="estado" />
 
                     <label for="cep">CEP</label>
-                    <input type="number" id="cep" />
+                    <input type="text" onchange="formataCep(this.value)" id="cep" />
 
                     <label for="tel">Telefone</label>
-                    <input type="number" id="tel" required />
+                    <input type="text" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
+
+                    <label for="instagram">Instagram</label>
+                    <input type="text" id="instagram" name="instagram" inputmode="instagram"/>
 
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" inputmode="email" required  />
+                    <input type="email" id="email" name="email" inputmode="email" required  />
 
                     <label for="senha">Senha</label>
-                    <input type="senha" id="senha" />
+                    <input type="password" name="senha" id="senha" />
 
                     <label for="senha">Confima Senha</label>
-                    <input type="senha" id="confisenha" />
+                    <input type="password" name="confsenha" id="confisenha" />
 
                     <div class="btn_enviar">
-                        <button onclick="adicionarPsicologo()"  type="submit">Enviar</button>
+                        <button onclick="adicionarPsicologo()"  type="button">Enviar</button>
                     </div>
                 </form>
 
@@ -115,6 +120,34 @@
 
     </footer>
 
+
+    <script>$(document).ready(function () {
+            $('#formCadastro').validate({
+                rules: {
+                    nome: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    msg: "required",
+                    crp: "required",
+                    tel: "required",
+                    senha: "required",
+                    confsenha: "required",
+
+                },
+                messages: {
+                    nome: "O nome é obrigatório!",
+                    email: "O e-mail precisa ser válido",
+                    msg: "Descreva sua abordagem!",
+                    crp: "O número do seu CRP é fundamental",
+                    tel: "Seu telefone é necessário para que os imigrantes entrem em contato!",
+                    senha: "Defina uma senha",
+                    confsenha: "Confirme a senha digitada!"
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
