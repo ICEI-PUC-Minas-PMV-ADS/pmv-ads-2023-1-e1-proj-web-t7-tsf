@@ -11,32 +11,84 @@ $(function () {
 });
 
 function adicionarPsicologo() {
-	var novoId = contCadastroPsicologo();
+	if ($("#formCadastro").valid()) {
+		var novoId = contCadastroPsicologo();
 
-	var psicologo = JSON.stringify({
-		id: novoId,
-		imagem: $("#img_cadastro").val(),
-		descricao: $("#msg").val(),
-		crp: $("#crp").val(),
-		nome: $("#nome").val(),
-		endereco: $("#endereco").val(),
-		numero: $("#numero").val(),
-		cidade: $("#cidade").val(),
-		estado: $("#estado").val(),
-		cep: $("#cep").val(),
-		telefone: $("#tel").val(),
-		cidade: $("#cidade").val(),
-		email: $("#email").val(),
-		senha: $("#senha").val()
+		var psicologo = JSON.stringify({
+			id: novoId,
+			imagem: $("#img_cadastro").val(),
+			descricao: $("#msg").val(),
+			crp: $("#crp").val(),
+			nome: $("#nome").val(),
+			endereco: $("#endereco").val(),
+			numero: $("#numero").val(),
+			cidade: $("#cidade").val(),
+			estado: $("#estado").val(),
+			cep: $("#cep").val(),
+			telefone: $("#tel").val(),
+			instagram: $("#instagram").val,
+			cidade: $("#cidade").val(),
+			email: $("#email").val(),
+			senha: $("#senha").val()
 
-	});
-	tbPsicologos.push(psicologo);
-	localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
-	alert("Psicólogo adicionado.");
+		});
+		//para informar que o cadastro já existe
+		var encontrado = false;
+		for (i = 0; i < tbPsicologos.length; i++) {
+			var registro = JSON.parse(tbPsicologos[i])
+			if (registro.email == $("#email").val()) {
+				encontrado = true;
+			}
+		}
+		if (!encontrado) {
+			tbPsicologos.push(psicologo);
+			localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
+			alert("Cadastro feito com sucesso!");
+			$("#formCadastro").trigger('reset');
+		}
+		else {
+			alert("Esse e-mail já possui um cadastro!");
+		}
+	}
 	return true;
 }
 
+
+function formataNumerotelefone(numero) {
+	numero = numero.replaceAll("-", "");
+	var length = numero.length;
+	console.log(length);
+	var telefoneFormatado;
+	var ddd = numero.substring(0, 2);
+
+	if (length === 10) {
+		telefoneFormatado = numero.substring(0, 2) + '-' + numero.substring(2, 6) + '-' + numero.substring(6, 10);
+	} else if (length === 11) {
+		telefoneFormatado = numero.substring(0, 2) + '-' + + numero.substring(2, 7) + '-' + numero.substring(7, 11);
+	}
+	else {
+		alert("Telefone Inválido.");
+	}
+
+	$("#tel").val(telefoneFormatado);
+}
+
+function formataCep(numero) {
+	numero = numero.replaceAll("-", "").replaceAll(".", "");
+	var length = numero.length;
+	var cepFormatado;
+
+	if (length === 8) {
+		cepFormatado = numero.substring(0, 2) + '.' + + numero.substring(2, 5) + '-' + numero.substring(5, 8);
+	} else {
+		alert("CEP Inválido.");
+	}
+	$("#cep").val(cepFormatado);
+}
+
+
 function carregarListaPsicologos() {
+
 	var psicologo = JSON.stringify({
 		id: "1",
 		nome: "Maria Cristina Bizotti",
@@ -192,24 +244,42 @@ $(function () {
 
 
 function adicionarImigrante() {
-	var novoId = contCadastroImigrante();
+	if ($("#formCadastro").valid()) {
+		var novoId = contCadastroImigrante();
 
-	var imigrante = JSON.stringify({
-		id: novoId,
-		imagem: $("#img_cadastro").val(),
-		nome: $("#nome").val(),
-		paisorigem: $("#paisorigem").val(),
-		paisatual: $("#paisatual").val(),
-		email: $("#email").val(),
-		telefone: $("#tel").val(),
-		senha: $("#senha").val()
+		var imigrante = JSON.stringify({
+			id: novoId,
+			imagem: $("#img_cadastro").val(),
+			nome: $("#nome").val(),
+			paisorigem: $("#paisorigem").val(),
+			paisatual: $("#paisatual").val(),
+			email: $("#email").val(),
+			telefone: $("#tel").val(),
+			senha: $("#senha").val()
 
-	});
-	tbImigrantes.push(imigrante);
-	localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
-	alert("Imigrante adicionado.");
+		});
+
+		//para informar que o cadastro já existe
+		var encontrado = false;
+		for (i = 0; i < tbImigrantes.length; i++) {
+			var registro = JSON.parse(tbImigrantes[i])
+			if (registro.email == $("#email").val()) {
+				encontrado = true;
+			}
+		}
+		if (!encontrado) {
+			tbImigrantes.push(imigrante);
+			localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
+			alert("Cadastro feito com sucesso!");
+			$("#formCadastro").trigger('reset');
+		}
+		else {
+			alert("Esse e-mail já possui um cadastro!");
+		}
+	}
 	return true;
 }
+
 
 function contCadastroImigrante() {
 	var maiorId = 0;
@@ -354,6 +424,8 @@ var email;
 
 function redefinirSenha() {
 	var redefinirSenhaEmail;
+	var achou = false;
+	var isPsicologo = false;
 
 	tbImigrantes = localStorage.getItem("tbImigrantes");
 	tbImigrantes = JSON.parse(tbImigrantes);
@@ -361,65 +433,75 @@ function redefinirSenha() {
 	tbPsicologos = localStorage.getItem("tbPsicologos");
 	tbPsicologos = JSON.parse(tbPsicologos);
 
-	$("#div_exibir").show();
-	$("#div_ocultar").hide();
-
-	email = $("#email").val();
-
-}
-
-function salvarnovasenha() {
-	var isPsicologo = false;
-
 	for (i = 0; i < tbPsicologos.length; i++) {
-		var registro = JSON.parse(tbPsicologos[i])
-		if (registro.email == email) {
-			registro.senha = $("#senha").val();
-			tbPsicologos[i] = JSON.stringify(registro);
-			localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
-
+		var registro = JSON.parse(tbPsicologos[i]);
+		if (registro.email == $("#email").val()) {
+			achou = true;
 			isPsicologo = true;
 		}
 	}
-
 	if (!isPsicologo) {
 		for (i = 0; i < tbImigrantes.length; i++) {
-			var registro = JSON.parse(tbImigrantes[i])
+			var registro = JSON.parse(tbImigrantes[i]);
+			if (registro.email == $("#email").val()) {
+				achou = true;
+			}
+		}
+		}
+		if (!achou) {
+			alert("E-mail não encontrado!");
+		}
+		else {
+			$("#div_exibir").show();
+			$("#div_ocultar").hide();
+			email = $("#email").val();
+		}
+	}
+
+	function salvarnovasenha() {
+		var isPsicologo = false;
+		var achou = false;
+		for (i = 0; i < tbPsicologos.length; i++) {
+			var registro = JSON.parse(tbPsicologos[i]);
 			if (registro.email == email) {
 				registro.senha = $("#senha").val();
-				tbImigrantes[i] = JSON.stringify(registro);
-				localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
+				tbPsicologos[i] = JSON.stringify(registro);
+				localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
+				achou = true;
+				isPsicologo = true;
+
 			}
 		}
-	}
-}
-
-function Login() {
-
-	var encontrado = false;
-	var email = $("#email").val();
-	var senha = $("#senha").val();
-
-	for (i = 0; i < tbPsicologos.length; i++) {
-		var registro = JSON.parse(tbPsicologos[i])
-		if (registro.email == email) {
-			encontrado = true;
-			if (registro.senha == senha) {
-				localStorage.setItem("idLogado", registro.id);
-				localStorage.setItem("nomeLogado", registro.nome);
-
-				window.location.href = "homepage.html";
-
-			} else {
-				alert("Senha inválida");
+			if (!isPsicologo) {
+				for (i = 0; i < tbImigrantes.length; i++) {
+					var registro = JSON.parse(tbImigrantes[i]);
+					if (registro.email == email) {
+						registro.senha = $("#senha").val();
+						tbImigrantes[i] = JSON.stringify(registro);
+						localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
+						achou = true;
+					}
+				}
+			}
+			if (!achou)
+			{
+				alert("E-mail não encontrado!");
+			}
+			else
+			{
+				window.location.href="login.html";
 			}
 		}
-	}
+	
 
-	if (!encontrado) {
+	function Login() {
 
-		for (i = 0; i < tbImigrantes.length; i++) {
-			var registro = JSON.parse(tbImigrantes[i])
+		var encontrado = false;
+		var email = $("#email").val();
+		var senha = $("#senha").val();
+
+		for (i = 0; i < tbPsicologos.length; i++) {
+			var registro = JSON.parse(tbPsicologos[i])
 			if (registro.email == email) {
 				encontrado = true;
 				if (registro.senha == senha) {
@@ -435,34 +517,52 @@ function Login() {
 		}
 
 		if (!encontrado) {
-			alert("E-mail não cadastrado! Crie uma conta.");
+
+			for (i = 0; i < tbImigrantes.length; i++) {
+				var registro = JSON.parse(tbImigrantes[i])
+				if (registro.email == email) {
+					encontrado = true;
+					if (registro.senha == senha) {
+						localStorage.setItem("idLogado", registro.id);
+						localStorage.setItem("nomeLogado", registro.nome);
+
+						window.location.href = "homepage.html";
+
+					} else {
+						alert("Senha inválida");
+					}
+				}
+			}
+
+			if (!encontrado) {
+				alert("E-mail não cadastrado! Crie uma conta.");
+			}
 		}
-	}
 
-}
-
-
-
-function verificarLogado() {
-
-	if (localStorage.getItem("nomeLogado")) {
-
-		$("#loginlogout").html("Olá, " + localStorage.getItem("nomeLogado"));
-		$("#logout").show();
-		$("#loginlogout").attr("href", "#");
-	} else {
-
-		$("#logout").hide();
 	}
 
 
 
-}
+	function verificarLogado() {
 
-function logout() {
+		if (localStorage.getItem("nomeLogado")) {
 
-	if (localStorage.getItem("nomeLogado")) {
-		localStorage.removeItem("nomeLogado");
+			$("#loginlogout").html("Olá, " + localStorage.getItem("nomeLogado"));
+			$("#logout").show();
+			$("#loginlogout").attr("href", "#");
+		} else {
+
+			$("#logout").hide();
+		}
+
+
+
 	}
-	window.location.href = "homepage.html";
-}
+
+	function logout() {
+
+		if (localStorage.getItem("nomeLogado")) {
+			localStorage.removeItem("nomeLogado");
+		}
+		window.location.href = "homepage.html";
+	}
