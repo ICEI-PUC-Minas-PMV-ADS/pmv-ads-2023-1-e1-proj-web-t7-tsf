@@ -14,7 +14,7 @@
 }
 
 .nav-bar {
-    width: 20%;
+    width: auto;
     float: left;
     position: fixed;
     left: 0;
@@ -26,13 +26,13 @@
 .nav-bar li {
     list-style: none;
     border-bottom: 1px solid rgb(235, 232, 232);
-    padding: 19px 19px 15px 19px;
+    padding: 14px 17px 14px 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
 .nav-bar li:last-child {
-margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .nav-bar ul :last-child {
@@ -48,23 +48,27 @@ margin-bottom: 150px;
     background-color: #FAECF1;
 }
 
-.aside {
-    margin-left: 400px;
+aside {
+    width: 1200px;
     margin-right: 20px;
     margin-bottom: 120px;
-    width: 1200px;
     height: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 150px;
+    margin-left: 250px;
+    
 }
 
 .show {
-    width: 950px;
-    height: 100px;
+    width: 800px;
+    height: auto;
     margin-top: 60px;
-    text-align: center;
     font-family: system-ui;
     font-size: 18px;
     color: #103075;
-    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 30px;
+       
 }
 
 .cards_1 {
@@ -75,13 +79,13 @@ margin-bottom: 150px;
     margin-right: 40px;
     float: left;
 }
+
 .cards_relatos {
     width: 900px;
     height: auto;
     margin-right: 60px;
-    float: right;
     font-family: monospace;
-    
+
 }
 
 .cards_titulo {
@@ -104,7 +108,8 @@ margin-bottom: 150px;
 
 .cards_nome {
     height: 30px;
-    font-family: fantasy;
+    font-family: system-ui;
+    font-weight: bold;
     padding-left: 20px;
 }
 
@@ -166,7 +171,7 @@ margin-bottom: 150px;
 
 
 .cards {
-    border: 1px solid rgb(235, 232, 232);
+    border-bottom: 1px solid rgb(235, 232, 232);
     width: 900px;
     height: auto;
     margin-top: 40px;
@@ -223,6 +228,14 @@ margin-bottom: 150px;
 
 }
 
+#perfil {
+    font-family: unset;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 08px;
+    margin: 0px 40px 50px 150px;
+}
+
 .cards_psicologo_perfil {
     width: 900px;
     height: 600px;
@@ -237,8 +250,7 @@ margin-bottom: 150px;
 .img_cadastro {
     width: 150px;
     height: 150px;
-    float: left;
-    display: block;
+    margin-top: 10px;
 }
 
 .formulario_cadastro_top {
@@ -248,19 +260,16 @@ margin-bottom: 150px;
 }
 
 .textarea_cadastro {
+    width: 398px;
+    height: 139px;
     padding-left: 15px;
 }
 
-#msg {
-    width: 398px;
-    height: 139px;
-}
 
 .formulario_cadastro {
-    padding-left: 165px;
+    padding-left: 80px;
     display: block;
-
-
+    background-color: #faf9f9;
 }
 
 label {
@@ -269,14 +278,20 @@ label {
     font-size: 10px;
     color: #5f5e5e;
     display: block;
+    margin-left: 10px;
+    margin-bottom: 4px;
 }
 
 input {
     width: 400px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
     outline: none;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    margin-right: 8px;
 }
 
 input:focus {
@@ -287,14 +302,12 @@ input:focus {
 .cards_cadastro {
     width: 1100px;
     height: auto;
-
 }
 
 .img_perfil_psicologo {
     float: left;
     display: block;
     padding-right: 20px;
-
 }
 
 
@@ -313,10 +326,15 @@ input:focus {
 
 
 button {
-    color: #ffffff;
-    background-color: #8e8f91;
-    border-color: #8e8f91;
-    font-size: 17px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #504f4f;
+    background-color: #d3cdcd;
+    border: none;
+    font-size: 11px;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .img_perfil_imigrante {
@@ -331,7 +349,6 @@ button {
     height: 100px;
     position: fixed;
     bottom: 0;
-
 }
 
 .footer-content li {
@@ -385,26 +402,18 @@ button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.background  {
-    margin-left: 35%;
+.background {
+
     margin-top: 5%;
-    height: 250px;
-    width: 350px;
-    padding: 150px;
-    display: flex;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 10px;
     background-color: #FAECF1;
+    font-family: system-ui;
+    margin-bottom: 150px;
+    width: 670px;
 }
-.grupo {
-    margin: auto 0;
-    margin-right: 50%;
-    margin-left: 0.5%;
-    margin-top: 0.1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ffffff;
-    border: none;
-}
+
 .titulo {
     font-size: 24px;
     max-width: 100%;
@@ -412,45 +421,7 @@ button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.botao_entrar {
-    margin-top: 5%;
-    border-radius: 5px;
-    align-items: center;
-    font-size: 1.2em;
-    background-color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-.botao_cadastrar {
-    margin-top: 2%;
-    border-radius: 5px;
-    align-items: center;
-    font-size: 1.1em;
-    background-color: black;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.botao_esqueci_senha {
-    margin-top: 2%;
-    border-radius: 5px;
-    align-items: center;
-    font-size: 1.1em;
-    background-color: black;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.botao_redefinir_senha {
-    margin-top: 2%;
-    border-radius: 5px;
-    align-items: center;
-    font-size: 1.1em;
-    background-color: black;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 .subtitulo {
     font-size: 20px;
 }

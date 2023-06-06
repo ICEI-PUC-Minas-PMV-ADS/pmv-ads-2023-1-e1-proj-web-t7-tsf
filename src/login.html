@@ -25,39 +25,48 @@
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
-            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html" style="display: none;">Logout</a> </li>
+            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html"
+                    style="display: none;">Logout</a> </li>
         </ul>
     </nav>
+    <aside>
+        <div class="background">
+            <form>
+                <p>Entre na sua conta</p>
 
-    <div class="background">
-        <fieldset class="grupo">
-            <p class="titulo">Entre na sua conta</p>
+                <label for="email">E-mail</label>
+                <input type="email" name="E-mail" id="email" required>
+                <label for="password">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+                <div>
+                    <button onclick="Login()" type="submit">Entrar</button>
+                    <button onclick="javascript:window.location.href='forgot_password.html'">Esqueci a senha</button>
+                </div>
+                <div>
+                    <button onclick="javascript:window.location.href='criar_login.html'">Criar um Login</button>
 
-            <label for="email">E-mail</label>
-            <input type="email" name="E-mail" id="email" required>
-            <label for="password">Senha</label>
-            <input type="password" name="senha" id="senha" required>
+                </div>
+            </form>
+        </div>
+    </aside>
 
-            <button onclick="Login()" class="botao_entrar" type="submit">Entrar</button>
-            <a href="criar_login.html" class="botao_cadastrar"><button class="botao_cadastrar">Criar um Login</a>
-            <a href="forgot_password.html" class="botao_esqueci_senha"><button class="botao_esqueci_senha"> Esqueci minha senha</a>
-        </fieldset>
-    </div>
+
+    <footer class="footer">
+        <div class="footer-content-img">
+            <img class="img-footer" src="img/logo.jpg">
+        </div>
+        <div class="footer-content">
+            <ul>
+                <li><a id="facebook-link" href="https://Instagram.com.br"><i class="fa fa-facebook-f"></i></a> </li>
+                <li><a id="instagram-link" href="https://Instagram.com.br"><i class="fa fa-instagram"></i></a> </li>
+                <li><a id="whatsapp-link" href="https://Wa.me/+5511911719044.br"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+            <p class="footer-slogan"> Conte com a gente em qualquer lugar do mundo!</p>
+            <p id="copy">&copy; 2023 terapiasemfronteiras.com.br</p>
+
+        </div>
+
+    </footer>
 </body>
 
-<footer class="footer">
-    <div class="footer-content-img">
-        <img class="img-footer" src="img/logo.jpg">
-    </div>
-    <div class="footer-content">
-        <ul>
-            <li><a id="facebook-link" href="https://Instagram.com.br"><i class="fa fa-facebook-f"></i></a> </li>
-            <li><a id="instagram-link" href="https://Instagram.com.br"><i class="fa fa-instagram"></i></a> </li>
-            <li><a id="whatsapp-link" href="https://Wa.me/+5511911719044.br"><i class="fa fa-whatsapp"></i></a></li>
-        </ul>
-        <p class="footer-slogan"> Conte com a gente em qualquer lugar do mundo!</p>
-        <p id="copy">&copy; 2023 terapiasemfronteiras.com.br</p>
-
-    </div>
-
-</footer>
+</html>
