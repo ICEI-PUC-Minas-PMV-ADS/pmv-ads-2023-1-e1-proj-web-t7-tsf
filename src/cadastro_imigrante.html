@@ -33,62 +33,51 @@
     </nav>
 
 
-    <article>
+    <aside>
+        <div class="background">
 
-        <aside class="aside">
+
             <div class="show">
                 <p> Caro Imigrante, preencha os dados abaixo. </p>
             </div>
 
 
-            <div class="formulario_cadastro_top">
-
+            <div>
                 <img class="img_cadastro" src="img/suaFotoAqui.png">
 
+                <form id="formCadastro" method="post">
+                    <input type="file" name="" id="btn">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" />
 
-                <div class="formulario_cadastro">
-                    <form id="formCadastro" method="post">
+                    <label for="pais">País de Origem</label>
+                    <input type="text" id="paisorigem" />
 
-                        <input type="file" name="" id="btn">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" />
+                    <label for="pais">País de Atual</label>
+                    <input type="text" id="paisatual" />
 
-                        <label for="pais">País de Origem</label>
-                        <input type="text" id="paisorigem" />
+                    <label for="tel">Telefone</label>
+                    <input type="text" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
 
-                        <label for="pais">País de Atual</label>
-                        <input type="text" id="paisatual" />
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" inputmode="email" required />
 
-                        <label for="tel">Telefone</label>
-                        <input type="text" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" />
 
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" inputmode="email" required />
+                    <label for="senha">Confima Senha</label>
+                    <input type="password" id="confsenha" />
 
-                        <label for="senha">Senha</label>
-                        <input type="password" id="senha" />
-
-                        <label for="senha">Confima Senha</label>
-                        <input type="password" id="confsenha" />
-
-
-
-                        <div class="btn">
-                            <button onclick="adicionarImigrante()" type="button">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-
-
-
+                    <div class="btn">
+                        <button onclick="adicionarImigrante()" type="button">Enviar</button>
+                    </div>
+                </form>
 
             </div>
+        </div>
+    </aside>
 
-
-        </aside>
-
-
-    </article>
+    S
 
 
     <footer class="footer">

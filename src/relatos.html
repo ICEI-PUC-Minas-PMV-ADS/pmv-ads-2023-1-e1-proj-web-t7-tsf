@@ -13,7 +13,7 @@
 </head>
 
 
-<body>
+<body onload="verificarCadastroRelato()">
     <header id="header">
         <p class="header"> Terapia Sem Fronteiras </p>
     </header>
@@ -26,46 +26,32 @@
             <li><a class="nav-bar-link" href="dicas.html">Dicas</a> </li>
             <li><a class="nav-bar-link" href="perguntas_frequentes.html">Perguntas Frequentes</a> </li>
             <li><a class="nav-bar-link" href="entre_em_contato.html">Entre em Contato</a> </li>
-            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html" style="display: none;">Logout</a> </li>
+            <li><a id="logout" onclick="logout()" class="nav-bar-link" href="homepage.html"
+                    style="display: none;">Logout</a> </li>
         </ul>
     </nav>
 
     <aside class="aside">
-        <div class="show">
-            <p > Deixe aqui seu relato! </p>
-        </div>
-        <div class="">
-            <img class="img_cadastro" src="img/fabianafatima.jpg">
-        </div>
-
-
-        <div class="relatos">
+        <div id="tipoUsuario" class="relatos">
+            <p class="show"> Deixe aqui seu relato! </p>
             <form>
                 <div class="cards_relatos">
                     <p>Relato Anônimo?
-                    <select id="anonimo">
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
+                        <select id="anonimo">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
                     </p>
-
+                    <label for="msg">Seu Relato</label>
+                    <textarea id="msgrelato"></textarea>
+                    <p class="info_usuario">(Seu relato irá passar por aprovação em até 24h)</p>
+                    <button onclick="adicionarRelatos()" type="submit">Enviar</button>
                 </div>
 
-                <label for="msg">Seu Relato</label>
-                <textarea id="msgrelato"></textarea>
-                <p class="info_usuario">(Seu relato irá passar por aprovação em até 24h)</p>
-                <button onclick="adicionarRelatos()" type="submit">Enviar</button>
             </form>
         </div>
-        <div id="lstRelatos" class="cards">     
+        <div id="lstRelatos" class="cards">
         </div>
-
-
     </aside>
-
-
-
-
-
 
     <footer class="footer">
         <div class="footer-content-img">
@@ -79,11 +65,7 @@
             </ul>
             <p class="footer-slogan"> Conte com a gente em qualquer lugar do mundo!</p>
             <p id="copy">&copy; 2023 terapiasemfronteiras.com.br</p>
-
         </div>
-
     </footer>
-
 </body>
-
 </html>

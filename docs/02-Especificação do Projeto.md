@@ -54,8 +54,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O site deve apresentar na tela de cadastro para opção <br/> paciente, a o formulário para cadastrar formas de contato      | ALTA |
 |RF-004| Todos os botões devem ser clicáveis                  | MÉDIA |
 |RF-005| Na página principal, devemos deixar claro o propósito <br/> do site já que envolve assuntos sensíveis | MÉDIA |
-|RF-006| O site deve apresentar na página de relatos, cards com <br/> identificação anônima ou não, opção de relatar    | MÉDIA |
-|RF-007| O site deve apresentar na página de relatos, cards com <br/> identificação anônima ou não, e com relatos de pessoas que relataram   | MÉDIA | 
+|RF-006| O site deve apresentar na página de relatos, cards com identificação anônima ou não e a opção de relatar  | MÉDIA |
+|RF-007| O site deve apresentar na página de relatos, todos os relatos cadastrados.   | MÉDIA | 
 |RF-008| O site deve apresentar um formulário/e-mail para suporte    | MÉDIA | 
 
          

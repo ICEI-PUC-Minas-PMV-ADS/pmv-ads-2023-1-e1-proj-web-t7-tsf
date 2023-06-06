@@ -355,31 +355,35 @@ function carregarListaRelatos() {
 	var relato = JSON.stringify({
 		id: "1",
 		nome: "Fabiana de Fátima Pereira",
-		descricao: "Sou analista financeira em uma empresa do ramo esportivo. Durante minhas expedições sinto dificuldade em acomodações com muitas pessoas, dificuldade em me adaptar com temperaturas muito baixas e sinto muita saudade da família mas, como eu adoro conhecer cidades e passear pelos parques, tive que procurar ajuda de um profissional para que eu continue no meu objetivo adiminstrando os sentimetnos que me incomodam.",
+		descricao: "Sou analista financeira em uma empresa do ramo esportivo. Durante minhas expedições sinto dificuldade em acomodações com muitas pessoas, dificuldade em me adaptar com temperaturas muito baixas e sinto muita saudade da família mas, como eu adoro conhecer cidades e passear pelos parques, tive que procurar ajuda de um profissional para que eu continue no meu objetivo adiminstrando os sentimetnos que me incomodam. Ter a ajuda de um profissional me ajudou a superar algumas questões.",
 		imagem: "img/fabianaFatima.jpg",
 	});
 	tbRelatos.push(relato);
 
 	var relato = JSON.stringify({
-		id: "1",
+		id: "2",
 		nome: "Jullio",
-		descricao: "Sou analista financeira em uma empresa do ramo esportivo. Durante minhas expedições sinto dificuldade em acomodações com muitas pessoas, dificuldade em me adaptar com temperaturas muito baixas e sinto muita saudade da família mas, como eu adoro conhecer cidades e passear pelos parques, tive que procurar ajuda de um profissional para que eu continue no meu objetivo adiminstrando os sentimetnos que me incomodam.",
-		imagem: "img/fabianaFatima.jpg",
+		descricao: "Sou executivo de vendas em uma empresa de serviços terceirizados. Tenho como hobbie viajar e fotografar, busca conhecer novas culturas e outros idiomas visando crescimento pessoal. Sinto dificuldade na adaptação às novas culturas, distanciamento familiar e em me adaptar à climas diferentes do habitual. Nesse site encontrei um terapeuta que me ajuda com essas dificuldades.",
+		imagem: "img/jullioravazoli.jpg",
 	});
 	tbRelatos.push(relato);
 
 	var relato = JSON.stringify({
-		id: "1",
+		id: "3",
 		nome: "Elisa",
-		descricao: "Sou analista financeira em uma empresa do ramo esportivo. Durante minhas expedições sinto dificuldade em acomodações com muitas pessoas, dificuldade em me adaptar com temperaturas muito baixas e sinto muita saudade da família mas, como eu adoro conhecer cidades e passear pelos parques, tive que procurar ajuda de um profissional para que eu continue no meu objetivo adiminstrando os sentimetnos que me incomodam.",
-		imagem: "img/fabianaFatima.jpg",
+		descricao: "Sou secretária da diretoria de uma empresa do ramo de fornecimento de energia elétrica. Amo cozinhar e ler livros, tenho facilidade com decoração de interiores e tenho como minha maior companhia, o marido. Busco conhecer o mundo para aprender sobre diversas culturas culinárias. Sempre tenho dificuldade em lidar com a saudade da família e em muitas de minhas viagens recebo discriminação cultural. A terapia tem sido de grande importância para mim.",
+		imagem: "img/elisabudreckas.jpg",
 	});
 	tbRelatos.push(relato);
 
 	localStorage.setItem("tbRelatos", JSON.stringify(tbRelatos));
 	carregarCardsRelatos();
 
+
+
+
 }
+
 
 function carregarCardsRelatos() {
 	for (var i in tbRelatos) {
@@ -393,6 +397,18 @@ function carregarCardsRelatos() {
 			"</div>");
 
 	}
+}
+
+function verificarCadastroRelato() {
+
+	if (localStorage.getItem("tipoUsuario") && localStorage.getItem("tipoUsuario") == "I") {
+		$("#tipoUsuario").show();
+	}
+	else {
+		$("#tipoUsuario").hide();
+	}
+
+
 }
 
 function contCadastroRelatos() {
@@ -447,122 +463,123 @@ function redefinirSenha() {
 				achou = true;
 			}
 		}
+	}
+	if (!achou) {
+		alert("E-mail não encontrado!");
+	}
+	else {
+		$("#div_exibir").show();
+		$("#div_ocultar").hide();
+		email = $("#email").val();
+	}
+}
+
+function salvarnovasenha() {
+	var isPsicologo = false;
+	var achou = false;
+	for (i = 0; i < tbPsicologos.length; i++) {
+		var registro = JSON.parse(tbPsicologos[i]);
+		if (registro.email == email) {
+			registro.senha = $("#senha").val();
+			tbPsicologos[i] = JSON.stringify(registro);
+			localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
+			achou = true;
+			isPsicologo = true;
+
 		}
-		if (!achou) {
-			alert("E-mail não encontrado!");
+	}
+	if (!isPsicologo) {
+		for (i = 0; i < tbImigrantes.length; i++) {
+			var registro = JSON.parse(tbImigrantes[i]);
+			if (registro.email == email) {
+				registro.senha = $("#senha").val();
+				tbImigrantes[i] = JSON.stringify(registro);
+				localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
+				achou = true;
+			}
 		}
-		else {
-			$("#div_exibir").show();
-			$("#div_ocultar").hide();
-			email = $("#email").val();
+	}
+	if (!achou) {
+		alert("E-mail não encontrado!");
+	}
+	else {
+		window.location.href = "login.html";
+	}
+}
+
+
+function Login() {
+	var encontrado = false;
+	var senhaValida = false;
+	var email = $("#email").val();
+	var senha = $("#senha").val();
+
+	for (i = 0; i < tbPsicologos.length; i++) {
+		var registro = JSON.parse(tbPsicologos[i])
+		if (registro.email == email) {
+			encontrado = true;
+			if (registro.senha == senha) {
+				localStorage.setItem("idLogado", registro.id);
+				localStorage.setItem("nomeLogado", registro.nome);
+				localStorage.setItem("tipoUsuario", "P");
+
+				senhaValida = true;
+
+
+				window.location.href = "homepage.html";
+			}
 		}
 	}
 
-	function salvarnovasenha() {
-		var isPsicologo = false;
-		var achou = false;
-		for (i = 0; i < tbPsicologos.length; i++) {
-			var registro = JSON.parse(tbPsicologos[i]);
-			if (registro.email == email) {
-				registro.senha = $("#senha").val();
-				tbPsicologos[i] = JSON.stringify(registro);
-				localStorage.setItem("tbPsicologos", JSON.stringify(tbPsicologos));
-				achou = true;
-				isPsicologo = true;
+	if (!encontrado) {
 
-			}
-		}
-			if (!isPsicologo) {
-				for (i = 0; i < tbImigrantes.length; i++) {
-					var registro = JSON.parse(tbImigrantes[i]);
-					if (registro.email == email) {
-						registro.senha = $("#senha").val();
-						tbImigrantes[i] = JSON.stringify(registro);
-						localStorage.setItem("tbImigrantes", JSON.stringify(tbImigrantes));
-						achou = true;
-					}
-				}
-			}
-			if (!achou)
-			{
-				alert("E-mail não encontrado!");
-			}
-			else
-			{
-				window.location.href="login.html";
-			}
-		}
-	
-
-	function Login() {
-
-		var encontrado = false;
-		var email = $("#email").val();
-		var senha = $("#senha").val();
-
-		for (i = 0; i < tbPsicologos.length; i++) {
-			var registro = JSON.parse(tbPsicologos[i])
+		for (i = 0; i < tbImigrantes.length; i++) {
+			var registro = JSON.parse(tbImigrantes[i])
 			if (registro.email == email) {
 				encontrado = true;
 				if (registro.senha == senha) {
 					localStorage.setItem("idLogado", registro.id);
-					localStorage.setItem("nomeLogado", registro.nome);
-
+					localStorage.setItem("nomeLogado", registro.nome);st
+					localStorage.setItem("tipoUsuario", "I");
+					senhaValida = true;
 					window.location.href = "homepage.html";
-
-				} else {
-					alert("Senha inválida");
 				}
 			}
 		}
+	}
 
-		if (!encontrado) {
+	if (!encontrado) {
+		alert("E-mail não cadastrado! Crie uma conta.");
+	}
 
-			for (i = 0; i < tbImigrantes.length; i++) {
-				var registro = JSON.parse(tbImigrantes[i])
-				if (registro.email == email) {
-					encontrado = true;
-					if (registro.senha == senha) {
-						localStorage.setItem("idLogado", registro.id);
-						localStorage.setItem("nomeLogado", registro.nome);
+	if (encontrado && !senhaValida) {
+		alert("Senha incorreta!");
+	}
+}
 
-						window.location.href = "homepage.html";
 
-					} else {
-						alert("Senha inválida");
-					}
-				}
-			}
 
-			if (!encontrado) {
-				alert("E-mail não cadastrado! Crie uma conta.");
-			}
-		}
+function verificarLogado() {
 
+	if (localStorage.getItem("nomeLogado")) {
+
+		$("#loginlogout").html("Olá, " + localStorage.getItem("nomeLogado"));
+		$("#logout").show();
+		$("#loginlogout").attr("href", "#");
+	} else {
+
+		$("#logout").hide();
 	}
 
 
 
-	function verificarLogado() {
+}
 
-		if (localStorage.getItem("nomeLogado")) {
+function logout() {
 
-			$("#loginlogout").html("Olá, " + localStorage.getItem("nomeLogado"));
-			$("#logout").show();
-			$("#loginlogout").attr("href", "#");
-		} else {
-
-			$("#logout").hide();
-		}
-
-
-
+	if (localStorage.getItem("nomeLogado")) {
+		localStorage.removeItem("nomeLogado");
+		localStorage.removeItem("tipoUsuario");
 	}
-
-	function logout() {
-
-		if (localStorage.getItem("nomeLogado")) {
-			localStorage.removeItem("nomeLogado");
-		}
-		window.location.href = "homepage.html";
-	}
+	window.location.href = "homepage.html";
+}
