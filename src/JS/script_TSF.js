@@ -583,3 +583,18 @@ function logout() {
 	}
 	window.location.href = "homepage.html";
 }
+
+function search_terapeuta() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('terapeutas');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="cards_nome";                 
+        }
+    }
+}
