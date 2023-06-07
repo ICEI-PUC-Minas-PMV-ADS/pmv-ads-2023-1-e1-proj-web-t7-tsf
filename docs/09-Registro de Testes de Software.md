@@ -38,3 +38,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Testado por: Larissa
 
 ![Teste - Card Relatos](img/cardrelatos.png) Teste - Card Relatos 
+
+## CT14 - Relatos
+
+- Resultado obtido: Não passou no teste. Não foi adicionada a opção de deixar um feedback. 
+- Testado por: Larissa
