@@ -30,4 +30,4 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Resultado obtido: Passou no teste ao clicar em Ver Perfil Completo e escolher um profissional para ter mais informações. E, também ao utilizar o Psicólogos na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. No perfil do psicólogo, podemos colocar links externos para facilitar o contato do paciente com o psicólogo. 
 - Testado por: Larissa
 
-![Teste - Card Psicólogos](img/cardpsicologos.png) Teste - Card Psicólogos
+![Teste - Card Psicólogos](src/img/cardpsicologos.png) Teste - Card Psicólogos
