@@ -31,9 +31,9 @@ A solução implementada conta com os seguintes módulos:
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
+(Tela 1), onde ele é confrontado com as opões de editar seu perfil ou
 então visualizar sua galeria.
 
 Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
