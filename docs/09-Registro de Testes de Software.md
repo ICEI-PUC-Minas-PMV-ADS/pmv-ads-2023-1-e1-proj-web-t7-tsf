@@ -11,10 +11,14 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
-##	CT10 - Cards da Home Page - Dicas
+## CT10 - Cards da Home Page - Dicas
 
-- Resultado obtido: Passou no teste ao clicar em Veja mais dicas e também ao utilizar o Dicas no navegador. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. 
+- Resultado obtido: Passou no teste ao clicar em Veja mais dicas e, também ao utilizar o Dicas na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. 
 - Testado por: Larissa
 
-[Teste - Dicas] /docs/img/dicas.png Teste - Dicas
+![Teste - Dicas](img/dicas.png) Teste - Dicas
 
+## CT11 - Cards da Home Page - Perguntas Frequentes
+
+- Resultado obtido: Passou no teste ao clicar em Tenho Outras Dúvidas e, também ao utilizar o Perguntas Frequentes na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo.
+- Testado por: Larissa
