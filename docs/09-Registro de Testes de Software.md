@@ -16,5 +16,5 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Resultado obtido: Passou no teste ao clicar em Veja mais dicas e também ao utilizar o Dicas no navegador. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. 
 - Testado por: Larissa
 
-[Teste - Dicas] docs/img/dicas.png Teste - Dicas
+[Teste - Dicas] /docs/img/dicas.png Teste - Dicas
 
