@@ -77,7 +77,7 @@ Abaixo estão os casos de testes escolhidos pela equipe, considerando os Requisi
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados:|RF01 - O site deve apresentar na página inicial cards com os psicólogos disponíveis, área de login, cards com relatos de imigrantes.|
 |Objetivo do Teste:|Verificar se cada card direciona a navegação para a página correspondente.|
-|Passos:|1) Acessar a Home Page; <br/> 2) Clicar no link do quarto card (Dicas).|
+|Passos:|1) Acessar a Home Page; <br/> 2) Clicar no link do quarto card (Perguntas Frequentes).|
 |Critérios de Êxito:|1) Ao clicar no link "Tenho outras dúvidas" do card Perguntas Frequentes a página deverá ser redirecionada para página de Perguntas Frequentes.| 
 
 |Caso de Teste|CT12 - Card, Cadastro Psicólogos, Home Page|
