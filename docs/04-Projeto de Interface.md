@@ -1,11 +1,11 @@
 
 # Projeto de Interface
 
- Nesse projeto estabelece o foco em questões como agilidade, acessibilidade e usabilidade. 
+ Nesse projeto, se estabelece o foco em questões como agilidade, acessibilidade e usabilidade. 
 
 ## Fluxo do Usuário
  
- O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar por completo, acesse [Marvel](https://marvelapp.com/project/6697348).
+ O diagrama apresentado na Figura 2, mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar por completo, acesse [Marvel](https://marvelapp.com/project/6697348).
  
 ![Diagrama Figura 2](img/DiagramaFigura2.jpg)Diagrama - Figura 2
 
@@ -27,15 +27,15 @@ Estrutura do Site - Figura 3
 
 **HomePage**
 
-A tela de home-page mostra destaques dos conteudos oferecidos pelo site. 
-Com base na estrutura padrão, o bloco de Conteúdo traz as cards em destaque (Perfis de psicólogos, relatos de imigrantes, dicas, perguntas frequentes, área de login).
+A tela de home-page mostra destaques dos conteúdos oferecidos pelo site. 
+Com base na estrutura padrão, o bloco de Conteúdo traz os cards em destaque (Perfis de Psicólogos, relatos de imigrantes, dicas, perguntas frequentes, área de login, etc).
 
 ![Home Page Figura 4](img/HomePageFigura4.jpg)
 Home Page - Figura 4
 
 **Tela Login**
 
-A tela Login dá opção de login ou criar um login (cadastro).
+A tela Login dá opção de entrar na conta ou criar um novo cadastro.
 
 ![Login Figura 5](img/LoginFigura5.jpg)
 Login - Figura 5
@@ -45,7 +45,7 @@ Login - Figura 5
 
 A tela de Cadastro apresenta opção para dois perfis:
 
-●	**Imigrantes**, realizando o cadastro mais simples, com pouca exigeência de informações.
+●	**Imigrantes**, realizando o cadastro mais simples, com pouca exigência de informações.
 
 ●	**Psicólogos**, realizando o cadastro mais completo, com mais riqueza de informações. 
 
@@ -69,7 +69,7 @@ Perfil Psicologo - Figura 9
 
 **Tela Relatos**
 
-A tela Relatos apresenta campos com relatos de imigrantes que quiseram deixar uma mensagem ou uma dica para quem está buscando ajuda.
+A tela Relatos apresenta campos com relatos de imigrantes que deixaram uma mensagem ou uma dica para quem está buscando ajuda.
 
 ![Relatos Figura 10](img/RelatosFigura10.jpg)
 Relatos - Figura 10
