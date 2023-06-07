@@ -37,4 +37,4 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Resultado obtido: Passou no teste ao clicar em Mais Relatos. E, também ao utilizar a opção Relatas na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. O mesmo pode ser feito nos relatos ao serem colocados mais em evidência com animações. 
 - Testado por: Larissa
 
-![Teste - Card Relatos](src/img/cardrelatos.png) Teste - Card Relatos 
+![Teste - Card Relatos](img/cardrelatos.png) Teste - Card Relatos 
