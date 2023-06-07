@@ -22,3 +22,5 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 - Resultado obtido: Passou no teste ao clicar em Tenho Outras Dúvidas e, também ao utilizar o Perguntas Frequentes na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo.
 - Testado por: Larissa
+
+![Teste - Perguntas Frequentes](img/perguntasfrequentes.png) Teste - Perguntas Frequentes
