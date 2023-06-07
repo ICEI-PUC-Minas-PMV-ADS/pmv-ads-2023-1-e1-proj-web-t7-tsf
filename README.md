@@ -6,7 +6,7 @@
 
 `Primeiro Semestre de 2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto destinado a facilitação de contato entre Psicólogos e Imigrantes brasileiros tendo em vista os desafios que tais pacientes enfrentam ao se mudarem para outros países. A plataforma visa além de trazer essa aproximação, também uma conscientização de tal problema e um espaço para que as pessoas possam partilhar suas experiências. 
 
 ## Integrantes
 
