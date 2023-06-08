@@ -48,19 +48,19 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Resultado obtido: Não passou no teste, Após preencher com um email válido e clicar em Redefinir Senha, não há qualquer redirecionamento de página ou mensagem que confirme o sucesso do procedimento.
 - Testado por: Douglas
 
-![Teste - Redefinir Senha](img/RedefinirSenha.png) Teste - Redefinir Senha
+![Teste - Redefinir Senha](img/RedefinirSenha.jpg) Teste - Redefinir Senha
 
 ## CT08 - Cards da Home Page - Profissionais
 - Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de psicólogos. Vale ressaltar que como no card aparece somente um profissional, o botão dá a entender que direciona para o perfil desse profissional em específico. 
 - Testado por: Douglas
 
-![Teste - Card Profissionais](img/CardProfissionais.png) Teste - Card Profissionais
+![Teste - Card Profissionais](img/CardProfissionais.jpg) Teste - Card Profissionais
 
 ## CT09 - Cards da Home Page - Relatos
 - Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de relatos.
 - Testado por: Douglas
 
-![Teste - Card Relatos](img/CardRelatos.png) Teste - Card Relatos
+![Teste - Card Relatos](img/CardRelatos.jpg) Teste - Card Relatos
 
 ## CT10 - Cards da Home Page - Dicas
 
