@@ -39,6 +39,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ## CT06 - Login
 - Resultado obtido: Passou no teste, foi possível realizar o login corretamente com uma conta cadastrada e senha válida. Apesar de permitir texto em uma formatação diferente no campo e-mail reconheceu e barrou e-mails não cadastrados e senhas erradas. 
+
 - Testado por: Douglas
 
 ![Teste - Login](docs/img/Login.png) Teste - Login
