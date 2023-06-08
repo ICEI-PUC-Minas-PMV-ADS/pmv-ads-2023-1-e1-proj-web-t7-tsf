@@ -38,12 +38,28 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ## CT05 - Campos dos Formulário de Cadastro Imigrantes
 
 ## CT06 - Login
+- Resultado obtido: Passou no teste, foi possível realizar o login corretamente com uma conta cadastrada e senha válida. Apesar de permitir texto em uma formatação diferente no campo e-mail reconheceu e barrou e-mails não cadastrados e senhas erradas. 
+- Testado por: Douglas
+
+![Teste - Login](docs/img/Login.png) Teste - Login
 
 ## CT07 - Esqueci a senha
+- Resultado obtido: Não passou no teste, Após preencher com um email válido e clicar em Redefinir Senha, não há qualquer redirecionamento de página ou mensagem que confirme o sucesso do procedimento.
+- Testado por: Douglas
+
+![Teste - Redefinir Senha](docs/img/RedefinirSenha.png) Teste - Redefinir Senha
 
 ## CT08 - Cards da Home Page - Profissionais
+- Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de psicólogos. Vale ressaltar que como no card aparece somente um profissional, o botão dá a entender que direciona para o perfil desse profissional em específico. 
+- Testado por: Douglas
+
+![Teste - Card Profissionais](docs/img/CardProfissionais.png) Teste - Card Profissionais
 
 ## CT09 - Cards da Home Page - Relatos
+- Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de relatos.
+- Testado por: Douglas
+
+![Teste - Card Relatos](docs/img/CardRelatos.png) Teste - Card Relatos
 
 ## CT10 - Cards da Home Page - Dicas
 
