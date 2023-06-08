@@ -21,7 +21,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 - Resultado obtido: Passou no teste pois o botão Login (barra lateral) é funcional e redireciona corretamente. Há um dropdown com duas opções: Psicólogo e Imigrante. Ao escolher ou uma ou outra opção e clicar em enviar, ver-se-á um formulário de acordo com cada opção corretamente. 
 - Testado por: Liana
 
-![Teste - Criar Login](img/criarlogin.png) Teste - Criar Login
+![Teste - Criar Login](docs/img/criarlogin.png) Teste - Criar Login
 
 ## CT03 - Formulários de Cadastro
 - Resultado obtido: Passou no teste pois na página de login é possível escolher ambas as opções e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
