@@ -42,7 +42,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 - Testado por: Douglas
 
-![Teste - Login](docs/img/Login.jpg) Teste - Login
+![Teste - Login](img/Login.jpg) Teste - Login
 
 ## CT07 - Esqueci a senha
 - Resultado obtido: Não passou no teste, Após preencher com um email válido e clicar em Redefinir Senha, não há qualquer redirecionamento de página ou mensagem que confirme o sucesso do procedimento.
