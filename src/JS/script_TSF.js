@@ -575,26 +575,26 @@ function verificarLogado() {
 
 }
 
-function logout() {
-
-	if (localStorage.getItem("nomeLogado")) {
-		localStorage.removeItem("nomeLogado");
-		localStorage.removeItem("tipoUsuario");
-	}
-	window.location.href = "homepage.html";
-}
-
 function search_terapeuta() {
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('terapeutas');
+    var termo = $('#searchbar').val();
+	$("#lstPsicologos").html("");
+	var encontrado = false;
       
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display="none";
-        }
-        else {
-            x[i].style.display="cards_nome";                 
-        }
-    }
+    for (var i in tbPsicologos) {
+		var registro = JSON.parse(tbPsicologos[i]);
+
+		if(registro.nome.toUpperCase().indexOf(termo.toUpperCase()) > -1){
+			$("#lstPsicologos").append("<div class='cards'>" +
+				"<img class='img_perfil_psicologo' src='" + registro.imagem + "'>" +
+				"<p class='cards_nome'>" + registro.nome + "</p>" +
+				"<p class='cards_descricao'>" + registro.descricao + "</p>" +
+				"<a class='cards_saibamais' href='psicologo_perfil.html?id=" + registro.id + "'>Entrar em contato com " + registro.nome + "...</a>" +
+				"</div>");
+
+				encontrado = true;
+		}
+	}
+
+	if(!encontrado)
+		$("#lstPsicologos").append("Nenhum psicólogo encontrado");
 }
