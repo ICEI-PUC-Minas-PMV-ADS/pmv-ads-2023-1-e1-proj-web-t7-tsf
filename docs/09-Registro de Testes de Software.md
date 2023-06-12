@@ -96,5 +96,25 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ## CT14 - Relatos
 
-- Resultado obtido: Não passou no teste. Não foi adicionada a opção de deixar um feedback. 
+- Resultado obtido: Passou no teste. Após criar um login como imigrante e ir até a página Relatos, o usuário conseguirá compartilhar sua experiência anonimamente ou não. 
 - Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/anonimoimigrante.png) Teste - Relatos Imigrantes
+
+## CT15 - Relatos
+- Resultado obtido: Passou no teste. Após criar um login como psicólogo e ir até a página Relatos, o usuário **Não** conseguirá compartilhar sua experiência anonimamente ou não. 
+- Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/anonimopsi.png) Teste - Relatos Imigrantes
+
+## CT16 - Entre em contato
+- Resultado obtido: Passou parcialmente no teste. Todos os campos são editáveis, os campos de e-mail e telefone possuem validação e o botão de enviar funciona. Entretanto, não há uma mensagem de confirmação que a mensagem foi enviada após clicar em Enviar. 
+- Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/entreemcontato.png) Teste - Relatos Imigrantes
+
+## CT17 - Propósito do Site
+- Resultado obtido: Passou no teste. Logo na home page há uma informação clara sobre o propósito do site de forma chamativa e clara. Podemos melhorar o design e a animação dessa informação trazendo mais atenção para tal fator. 
+- Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/propositodosite.png) Teste - Relatos Imigrantes
