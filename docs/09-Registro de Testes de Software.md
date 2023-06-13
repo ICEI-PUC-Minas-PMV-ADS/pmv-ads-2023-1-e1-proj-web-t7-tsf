@@ -24,10 +24,10 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ![Teste - Criar Login](img/criarlogin.png) Teste - Criar Login
 
 ## CT03 - Formulários de Cadastro
-- Resultado obtido: Passou no teste pois na página de login é possível escolher ambas as opções e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
+- Resultado obtido: Passou no teste pois na página de login é possível escolher ambas as opções e clicar em Enviar. Dependendo da opção escolhida o usuário é redirecionado de acordo para o formulário corretamente.
 - Testado por: Liana
 
-![Teste - Login Imigrante](img/loginimigrante.png) Teste - Login Imigrante
+![Teste - Formulários](img/formulariocadastro.png) Teste - Dropdown Formulários
 
 ## CT04 - Campos do Formulário de Cadastro Psicólogos
 - Resultado obtido: Passou no teste pois na página de login é possível escolher a opção de psicólogo e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como CRP, telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
@@ -36,6 +36,10 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ![Teste - Login Terapeuta](img/loginpsi.png) Teste - Login Terapeuta
 
 ## CT05 - Campos dos Formulário de Cadastro Imigrantes
+- Resultado obtido: Passou no teste pois na página de login é possível escolher a opção de psicólogo e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como CRP, telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
+- Testado por: Liana
+
+![Teste - Login Imigrante](img/loginimigrante.png) Teste - Login Imigrante
 
 ## CT06 - Login
 - Resultado obtido: Passou no teste, foi possível realizar o login corretamente com uma conta cadastrada e senha válida. Apesar de permitir texto em uma formatação diferente no campo e-mail reconheceu e barrou e-mails não cadastrados e senhas erradas. 
@@ -92,5 +96,25 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ## CT14 - Relatos
 
-- Resultado obtido: Não passou no teste. Não foi adicionada a opção de deixar um feedback. 
+- Resultado obtido: Passou no teste. Após criar um login como imigrante e ir até a página Relatos, o usuário conseguirá compartilhar sua experiência anonimamente ou não. 
 - Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/anonimoimigrante.png) Teste - Relatos Imigrantes
+
+## CT15 - Relatos
+- Resultado obtido: Passou no teste. Após criar um login como psicólogo e ir até a página Relatos, o usuário **Não** conseguirá compartilhar sua experiência anonimamente ou não. 
+- Testado por: Larissa
+
+![Teste - Relatos Psicólogos](img/anonimopsi.png) Teste - Relatos Psicólogos
+
+## CT16 - Entre em contato
+- Resultado obtido: Passou parcialmente no teste. Todos os campos são editáveis, os campos de e-mail e telefone possuem validação e o botão de enviar funciona. Entretanto, não há uma mensagem de confirmação que a mensagem foi enviada após clicar em Enviar. 
+- Testado por: Larissa
+
+![Teste - Entre em Contato](img/entreemcontato.png) Teste - Entre em Contato
+
+## CT17 - Propósito do Site
+- Resultado obtido: Passou no teste. Logo na home page há uma informação clara sobre o propósito do site de forma chamativa e clara. Podemos melhorar o design e a animação dessa informação trazendo mais atenção para tal fator. 
+- Testado por: Larissa
+
+![Teste - Proposito do Site](img/propositodosite.png) Teste - Propósito do Site
