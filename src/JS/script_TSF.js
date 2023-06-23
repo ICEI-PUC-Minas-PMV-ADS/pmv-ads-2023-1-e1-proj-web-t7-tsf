@@ -573,15 +573,6 @@ function verificarLogado() {
 
 }
 
-function logout() {
-
-	if (localStorage.getItem("nomeLogado")) {
-		localStorage.removeItem("nomeLogado");
-		localStorage.removeItem("tipoUsuario");
-	}
-	window.location.href = "homepage.html";
-}
-
 function search_terapeuta() {
     var termo = $('#searchbar').val();
 	$("#lstPsicologos").html("");

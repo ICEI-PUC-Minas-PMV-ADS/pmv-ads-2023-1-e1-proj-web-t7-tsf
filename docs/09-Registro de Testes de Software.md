@@ -11,35 +11,110 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
+## CT01 - Página Inicial
+- Resultado obtido: Passou no teste pois todas as informações estão disponíveis incluindo barra de navegação lateral e cards informativos. Todos os botões são clicáveis. 
+- Testado por: Liana
+
+![Teste - Pagina Inicial](img/paginainicial.png) Teste - Página Inicial
+
+## CT02 - Criar Login 
+- Resultado obtido: Passou no teste pois o botão Login (barra lateral) é funcional e redireciona corretamente. Há um dropdown com duas opções: Psicólogo e Imigrante. Ao escolher ou uma ou outra opção e clicar em enviar, ver-se-á um formulário de acordo com cada opção corretamente. 
+- Testado por: Liana
+
+![Teste - Criar Login](img/criarlogin.png) Teste - Criar Login
+
+## CT03 - Formulários de Cadastro
+- Resultado obtido: Passou no teste pois na página de login é possível escolher ambas as opções e clicar em Enviar. Dependendo da opção escolhida o usuário é redirecionado de acordo para o formulário corretamente.
+- Testado por: Liana
+
+![Teste - Formulários](img/formulariocadastro.png) Teste - Dropdown Formulários
+
+## CT04 - Campos do Formulário de Cadastro Psicólogos
+- Resultado obtido: Passou no teste pois na página de login é possível escolher a opção de psicólogo e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como CRP, telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
+- Testado por: Liana
+
+![Teste - Login Terapeuta](img/loginpsi.png) Teste - Login Terapeuta
+
+## CT05 - Campos dos Formulário de Cadastro Imigrantes
+- Resultado obtido: Passou no teste pois na página de login é possível escolher a opção de psicólogo e clicar em Enviar. Além disso, o formulário está disponível com as validações necessárias bem como CRP, telefone e e-mail reais. O usuário também conseguirá adicionar uma foto caso queira. Como melhoria, podemos colocar validação no campo senha e também, a opção de deixar a senha visível para que seja mais seguro para o usuário. 
+- Testado por: Liana
+
+![Teste - Login Imigrante](img/loginimigrante.png) Teste - Login Imigrante
+
+## CT06 - Login
+- Resultado obtido: Passou no teste, foi possível realizar o login corretamente com uma conta cadastrada e senha válida. Apesar de permitir texto em uma formatação diferente no campo e-mail reconheceu e barrou e-mails não cadastrados e senhas erradas. 
+
+- Testado por: Douglas
+
+![Teste - Login](img/Login.jpg) Teste - Login
+
+## CT07 - Esqueci a senha
+- Resultado obtido: Não passou no teste, Após preencher com um email válido e clicar em Redefinir Senha, não há qualquer redirecionamento de página ou mensagem que confirme o sucesso do procedimento.
+- Testado por: Douglas
+
+![Teste - Redefinir Senha](img/RedefinirSenha.jpg) Teste - Redefinir Senha
+
+## CT08 - Cards da Home Page - Profissionais
+- Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de psicólogos. Vale ressaltar que como no card aparece somente um profissional, o botão dá a entender que direciona para o perfil desse profissional em específico. 
+- Testado por: Douglas
+
+![Teste - Card Profissionais](img/CardProfissionais.jpg) Teste - Card Profissionais
+
+## CT09 - Cards da Home Page - Relatos
+- Resultado obtido: Passou no teste. Ao clicar, o botão do card direciona corretamente para a página de relatos.
+- Testado por: Douglas
+
+![Teste - Card Relatos](img/CardRelatos.jpg) Teste - Card Relatos
+
 ## CT10 - Cards da Home Page - Dicas
 
-- Resultado obtido: Passou no teste ao clicar em Veja mais dicas e, também ao utilizar o Dicas na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. 
+- Resultado obtido: Passou no teste ao clicar em *Veja mais dicas* e, também ao utilizar a opção *Dicas* na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. 
 - Testado por: Larissa
 
 ![Teste - Dicas](img/dicas.png) Teste - Dicas
 
 ## CT11 - Cards da Home Page - Perguntas Frequentes
 
-- Resultado obtido: Passou no teste ao clicar em Tenho Outras Dúvidas e, também ao utilizar o Perguntas Frequentes na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo.
+- Resultado obtido: Passou no teste ao clicar em *Tenho Outras Dúvidas* e, também ao utilizar a opção *Perguntas Frequentes* na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo.
 - Testado por: Larissa
 
 ![Teste - Perguntas Frequentes](img/perguntasfrequentes.png) Teste - Perguntas Frequentes
 
 ## CT12 - Card, Cadastro Psicólogos, Home Page
 
-- Resultado obtido: Passou no teste ao clicar em Ver Perfil Completo e escolher um profissional para ter mais informações. E, também ao utilizar a opção Psicólogos na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. No perfil do psicólogo, podemos colocar links externos para facilitar o contato do paciente com o psicólogo. 
+- Resultado obtido: Passou no teste ao clicar em *Ver Perfil Completo* e escolher um profissional para ter mais informações. E, também ao utilizar a opção *Psicólogos* na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. No perfil do psicólogo, podemos colocar links externos para facilitar o contato do paciente com o psicólogo. 
 - Testado por: Larissa
 
 ![Teste - Card Psicólogos](img/cardpsicologos.png) Teste - Card Psicólogos
 
 ## CT13 - Relatos
 
-- Resultado obtido: Passou no teste ao clicar em Mais Relatos. E, também ao utilizar a opção Relatas na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. O mesmo pode ser feito nos relatos ao serem colocados mais em evidência com animações. 
+- Resultado obtido: Passou no teste ao clicar em *Mais Relatos*. E, também ao utilizar a opção *Relatos* na aba de navegação esquerda. Há a possibilidade de utilizar javascript para adicionar uma animação ao mover o cursor no card tornando mais interativo e chamativo. O mesmo pode ser feito nos relatos ao serem colocados mais em evidência com animações. 
 - Testado por: Larissa
 
 ![Teste - Card Relatos](img/cardrelatos.png) Teste - Card Relatos 
 
 ## CT14 - Relatos
 
-- Resultado obtido: Não passou no teste. Não foi adicionada a opção de deixar um feedback. 
+- Resultado obtido: Passou no teste. Após criar um login como imigrante e ir até a página Relatos, o usuário conseguirá compartilhar sua experiência anonimamente ou não. 
 - Testado por: Larissa
+
+![Teste - Relatos Imigrantes](img/anonimoimigrante.png) Teste - Relatos Imigrantes
+
+## CT15 - Relatos
+- Resultado obtido: Passou no teste. Após criar um login como psicólogo e ir até a página Relatos, o usuário **Não** conseguirá compartilhar sua experiência anonimamente ou não. 
+- Testado por: Larissa
+
+![Teste - Relatos Psicólogos](img/anonimopsi.png) Teste - Relatos Psicólogos
+
+## CT16 - Entre em contato
+- Resultado obtido: Passou parcialmente no teste. Todos os campos são editáveis, os campos de e-mail e telefone possuem validação e o botão de enviar funciona. Entretanto, não há uma mensagem de confirmação que a mensagem foi enviada após clicar em Enviar. 
+- Testado por: Larissa
+
+![Teste - Entre em Contato](img/entreemcontato.png) Teste - Entre em Contato
+
+## CT17 - Propósito do Site
+- Resultado obtido: Passou no teste. Logo na home page há uma informação clara sobre o propósito do site de forma chamativa e clara. Podemos melhorar o design e a animação dessa informação trazendo mais atenção para tal fator. 
+- Testado por: Larissa
+
+![Teste - Proposito do Site](img/propositodosite.png) Teste - Propósito do Site
