@@ -34,9 +34,9 @@
         <div class="show">
             <p> Aqui você pode ver o perfil de todos os psicólogos disponíveis. </p>
 
-            <form action="/cadastro_psicologos" method="post">
+            <form method="post">
                 <label class="busca" for="busca"></label>
-                <input type="text" id="busca" placeholder="Busca..." />
+                <input type="text" id="searchbar" onchange="search_terapeuta();" placeholder="Busca..." />
             </form>
         </div>
         <div id="lstPsicologos"></div>

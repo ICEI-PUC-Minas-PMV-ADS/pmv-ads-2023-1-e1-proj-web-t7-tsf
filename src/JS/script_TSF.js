@@ -188,9 +188,6 @@ function exibirPerfil() {
 	for (var i in tbPsicologos) {
 		if (JSON.parse(tbPsicologos[i]).id == id) {
 			var registro = JSON.parse(tbPsicologos[i]);
-
-
-			var registro = JSON.parse(tbPsicologos[i]);
 			$("#perfil_psicologo").html("<img class='img_perfil_psicologo' src='" + registro.imagem + "'>" +
 				"<p class='cards_nome'>" + registro.nome + "</p>" +
 				"<div class='cards_descricao'>" +
@@ -401,7 +398,7 @@ function carregarCardsRelatos() {
 
 function verificarCadastroRelato() {
 
-	if (localStorage.getItem("tipoUsuario") && localStorage.getItem("tipoUsuario") == "I") {
+	if (localStorage.getItem("tipoUsuario") == "I") {
 		$("#tipoUsuario").show();
 	}
 	else {
@@ -515,7 +512,7 @@ function Login() {
 	var senha = $("#senha").val();
 
 	for (i = 0; i < tbPsicologos.length; i++) {
-		var registro = JSON.parse(tbPsicologos[i])
+		var registro = JSON.parse(tbPsicologos[i]);
 		if (registro.email == email) {
 			encontrado = true;
 			if (registro.senha == senha) {
@@ -534,13 +531,14 @@ function Login() {
 	if (!encontrado) {
 
 		for (i = 0; i < tbImigrantes.length; i++) {
-			var registro = JSON.parse(tbImigrantes[i])
+			var registro = JSON.parse(tbImigrantes[i]);
 			if (registro.email == email) {
 				encontrado = true;
 				if (registro.senha == senha) {
 					localStorage.setItem("idLogado", registro.id);
-					localStorage.setItem("nomeLogado", registro.nome);st
+					localStorage.setItem("nomeLogado", registro.nome);
 					localStorage.setItem("tipoUsuario", "I");
+					
 					senhaValida = true;
 					window.location.href = "homepage.html";
 				}
@@ -585,16 +583,25 @@ function logout() {
 }
 
 function search_terapeuta() {
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('terapeutas');
+    var termo = $('#searchbar').val();
+	$("#lstPsicologos").html("");
+	var encontrado = false;
       
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display="none";
-        }
-        else {
-            x[i].style.display="cards_nome";                 
-        }
-    }
+    for (var i in tbPsicologos) {
+		var registro = JSON.parse(tbPsicologos[i]);
+
+		if(registro.nome.toUpperCase().indexOf(termo.toUpperCase()) > -1){
+			$("#lstPsicologos").append("<div class='cards'>" +
+				"<img class='img_perfil_psicologo' src='" + registro.imagem + "'>" +
+				"<p class='cards_nome'>" + registro.nome + "</p>" +
+				"<p class='cards_descricao'>" + registro.descricao + "</p>" +
+				"<a class='cards_saibamais' href='psicologo_perfil.html?id=" + registro.id + "'>Entrar em contato com " + registro.nome + "...</a>" +
+				"</div>");
+
+				encontrado = true;
+		}
+	}
+
+	if(!encontrado)
+		$("#lstPsicologos").append("Nenhum psicólogo encontrado");
 }

@@ -349,7 +349,9 @@ button {
     height: 100px;
     position: fixed;
     bottom: 0;
+  
 }
+
 
 .footer-content li {
     list-style: none;
@@ -424,4 +426,41 @@ button {
 
 .subtitulo {
     font-size: 20px;
+}
+
+.titulo1{
+    font-size: 17px;
+    max-width: 100%;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+
+.texto1{
+    width: 800px;
+    height: auto;
+    margin-top: 30px;
+    color:#101931;
+    font-family: system-ui;
+    font-size: 15px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .li {
+    list-style: none;
+    font-size: 15px;
+  }
+
+  .bottom{
+    padding-bottom: 150px;
+  }
+
+  .perfil_psicologo {
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: grid;
+    float: left;
+    margin-bottom: 150px;
 }

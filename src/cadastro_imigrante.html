@@ -48,25 +48,25 @@
                 <form id="formCadastro" method="post">
                     <input type="file" name="" id="btn">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" />
+                    <input type="text" maxlength="23" id="nome" />
 
                     <label for="pais">País de Origem</label>
-                    <input type="text" id="paisorigem" />
+                    <input type="text"  maxlength="25" id="paisorigem" />
 
                     <label for="pais">País de Atual</label>
-                    <input type="text" id="paisatual" />
+                    <input type="text" maxlength="25" id="paisatual" />
 
                     <label for="tel">Telefone</label>
-                    <input type="text" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
+                    <input type="text" maxlength="13" id="tel" name="tel" onchange="formataNumerotelefone(this.value)" required />
 
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" inputmode="email" required />
+                    <input type="email" maxlength="50" id="email" name="email" inputmode="email" required />
 
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" />
+                    <input type="password" maxlength="30" id="senha" />
 
                     <label for="senha">Confima Senha</label>
-                    <input type="password" id="confsenha" />
+                    <input type="password" maxlength="30" id="confsenha" />
 
                     <div class="btn">
                         <button onclick="adicionarImigrante()" type="button">Enviar</button>
