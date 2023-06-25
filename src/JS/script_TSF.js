@@ -328,7 +328,7 @@ function adicionarRelatos() {
 	var imagemRelator = "img/anonimo.jpg";
 
 	if ($("#anonimo").val() == "nao") {
-		nomeRelator = "Nome do Relator";
+		nomeRelator = localStorage.getItem("nomeLogado");
 		imagemRelator = "img/fabianafatima.jpg"
 	}
 
@@ -595,4 +595,13 @@ function search_terapeuta() {
 
 	if(!encontrado)
 		$("#lstPsicologos").append("Nenhum psicólogo encontrado");
+}
+
+function logout() {
+	if (localStorage.getItem("nomeLogado")) {
+		localStorage.removeItem("nomeLogado");
+		localStorage.removeItem("tipoUsuario");
+	}
+
+	window.location.href = "homepage.html";
 }
